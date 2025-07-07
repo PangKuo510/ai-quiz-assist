@@ -1,94 +1,53 @@
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f0f4f8;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-.container {
-  max-width: 800px;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  padding: 1em;
+  background: #f9fafb;
+  color: #111827;
+  max-width: 720px;
   margin: auto;
-  padding: 2rem;
 }
-h1 {
-  color: #2563eb;
-  text-align: center;
-}
-#progress-container {
-  height: 20px;
-  background-color: #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-}
-#progress-bar {
-  height: 100%;
-  width: 0%;
-  background-color: red;
-  transition: width 0.3s ease-in-out, background-color 0.3s;
-}
-.question-block {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  margin-bottom: 1rem;
-}
-.options button {
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  background: #fff;
+button {
+  margin: 6px 0;
+  padding: 8px 16px;
+  font-size: 16px;
   cursor: pointer;
-  transition: all 0.2s;
 }
-.options button.correct {
-  background-color: #c8e6c9;
-  border-color: #4caf50;
-}
-.options button.incorrect {
-  background-color: #ffcdd2;
-  border-color: #f44336;
-}
-.options button.disabled {
-  pointer-events: none;
+button:disabled {
   opacity: 0.6;
+  cursor: not-allowed;
 }
-.explanation {
-  margin-top: 1rem;
-  font-style: italic;
-  color: #333;
-  background-color: #eef;
-  padding: 1rem;
-  border-radius: 8px;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
-.hidden {
-  display: none;
+.progress-bar {
+  height: 10px;
+  background: #d1d5db;
+  margin: 8px 0;
+  border-radius: 5px;
+  overflow: hidden;
 }
-#next-btn {
-  margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #2563eb;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 1rem;
+.progress-bar-fill {
+  height: 100%;
+  background: #3b82f6;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
 }
-#result-container {
-  padding: 2rem;
-  text-align: center;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-top: 2rem;
+.category-label {
+  display: inline-block;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 2px 6px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  border-radius: 4px;
 }
-#result-container h2 {
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
+@media (max-width: 600px) {
+  body {
+    padding: 1em;
+  }
+  button {
+    width: 100%;
+  }
 }
