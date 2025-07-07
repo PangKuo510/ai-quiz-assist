@@ -83,10 +83,16 @@ function renderStartScreen() {
     <label>題目數量：
       <input type="number" id="questionCount" min="1" max="${questions.length}" value="10">
     </label><br/><br/>
-    <button onclick="startQuiz()">▶️ 隨機練題</button>
-    <button onclick="renderQuestionList()">📘 題庫總覽</button>
-    <button onclick="renderWrongBook()">❌ 錯題本</button>
-    <button onclick="startSequentialQuiz()">📋 順序練題</button>
+    <div class="btn-panel">
+      <div class="btn-row">
+        <button class="main-btn" onclick="startQuiz()">▶️ 隨機練題</button>
+      </div>
+      <div class="btn-row btn-row-3">
+        <button onclick="startSequentialQuiz()">📋 順序練題</button>
+        <button onclick="renderQuestionList()">📘 題庫總覽</button>
+        <button onclick="renderWrongBook()">❌ 錯題本</button>
+      </div>
+    </div>
   `;
 }
 
@@ -199,7 +205,7 @@ function renderResult(score) {
   `;
 }
 
-// ---------- 順序練題（新增） ----------
+// ---------- 順序練題 ----------
 
 let sequentialMode = false;
 let sequentialIndex = 0;
@@ -237,11 +243,13 @@ function renderSequentialQuestion() {
     <p><strong>${q.question}</strong></p>
     <ul>${optionsHTML}</ul>
     <div id="seq_feedback"></div><br/>
-    <button onclick="goSequentialPrev()">⬅️ 上一題</button>
-    <button onclick="goSequentialNext()">➡️ 下一題</button>
-    <input type="number" min="1" max="${questions.length}" id="seq_jump_input" style="width:60px;" placeholder="題號">
-    <button onclick="goSequentialJump()">跳轉</button>
-    <button onclick="stopQuiz()">🛑 返回首頁</button>
+    <div class="btn-row btn-row-3">
+      <button onclick="goSequentialPrev()">⬅️ 上一題</button>
+      <button onclick="goSequentialNext()">➡️ 下一題</button>
+      <input type="number" min="1" max="${questions.length}" id="seq_jump_input" style="width:60px;" placeholder="題號">
+      <button onclick="goSequentialJump()">跳轉</button>
+      <button onclick="stopQuiz()">🛑 返回首頁</button>
+    </div>
   `;
 
   // 有選過就立即顯示解析
