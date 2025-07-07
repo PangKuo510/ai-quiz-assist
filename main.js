@@ -5,9 +5,28 @@ let wrongBook = [];
 let currentQuestionIndex = 0;
 let correctCount = 0;
 let totalToAnswer = 0;
-let answering = false;
 
 const app = document.getElementById("root");
+
+// 載入題庫資料
+fetch("ai_question_bank_v1_fixed.json")
+  .then(function(res) {
+    if (!res.ok) throw new Error("題庫載入失敗");
+    return res.json();
+  })
+  .then(function(data) {
+    console.log("✅ 題庫載入成功，共", data.length, "題");
+    questions = data;
+    renderStartScreen();
+  })
+  .catch(function(err) {
+    console.error("❌ 題庫讀取錯誤：", err);
+    app.innerHTML = "<p style='color:red;'>🚫 題庫載入失敗，請稍後重試。</p>";
+  });
+
+// 其餘題目處理函式保持原樣：從先前版本 cleaned_main_js_v8 剔除錯誤段落後補上即可
+
+
 
 function saveQuizProgress() {
   const state = {
@@ -19,20 +38,6 @@ function saveQuizProgress() {
   localStorage.setItem("ai_quiz_saved_progress", JSON.stringify(state));
 }
 
-function loadQuizProgress() {
-  const state = JSON.parse(localStorage.getItem("ai_quiz_saved_progress"));
-  if (state) {
-    filteredQuestions = state.filteredQuestions;
-    currentQuestionIndex = state.currentQuestionIndex;
-    correctCount = state.correctCount;
-    totalToAnswer = state.totalToAnswer;
-    renderQuestion();
-  }
-}
-
-function clearQuizProgress() {
-  localStorage.removeItem("ai_quiz_saved_progress");
-}
 
 function renderStartScreen() {
   const lastScore = localStorage.getItem("ai_quiz_last_score") || "尚無紀錄";
@@ -41,6 +46,7 @@ function renderStartScreen() {
   const categories = [...new Set(questions.map(q => q.category))];
 
   app.innerHTML = `
+  
     <h1 style='color:#2563eb'>AI應用規劃師教練</h1>
     <p>為 AI應用規劃師考照打造的每日練習工具</p>
     <p>📊 最近分數：${lastScore}%，最後練習：${lastDate}</p>
@@ -74,41 +80,36 @@ function startQuiz() {
 
 function renderQuestion() {
   saveQuizProgress();
-  answering = false;
   let q = filteredQuestions[currentQuestionIndex];
   const progressPercent = Math.round((currentQuestionIndex / totalToAnswer) * 100);
   const progressColor = progressPercent < 40 ? '#ef4444' : progressPercent < 70 ? '#f59e0b' : '#10b981';
-
   const progressBar = `
     <div style="background:#e5e7eb;border-radius:8px;overflow:hidden;margin:10px 0;">
       <div style="width:${progressPercent}%;background:${progressColor};padding:4px 0;color:white;text-align:center;font-size:12px;">
         ${progressPercent}%
       </div>
     </div>`;
-
+  saveQuizProgress();
+  q = filteredQuestions[currentQuestionIndex];
   app.innerHTML = `
-    ${progressBar}
+  
     <div>📘 分類：${q.category}　🔢 題號：${currentQuestionIndex + 1} / ${totalToAnswer}</div><br/>
     <p><strong>${q.question}</strong></p>
     <ul>
       ${q.options.map((opt, i) => `<li><button onclick="checkAnswer('${String.fromCharCode(65+i)}')">${String.fromCharCode(65+i)}. ${opt}</button></li>`).join("")}
     </ul>
-    <div id="feedback"></div>
-    <div id="explanation" style="margin-top:10px;color:#4b5563"></div><br/>
-    <button id="nextButton" style="display:none" onclick="goToNextQuestion()">➡️ 下一題</button><br/><br/>
+    <div id="feedback"></div><br/>
     <button onclick="stopQuiz()">🛑 停止答題並返回首頁</button>
   `;
 }
 
+let answering = false;
 function checkAnswer(selected) {
   if (answering) return;
-  if (!filteredQuestions[currentQuestionIndex]) return;
   answering = true;
-  let q = filteredQuestions[currentQuestionIndex];
+  q = filteredQuestions[currentQuestionIndex];
   const correct = q.answer;
   const feedback = document.getElementById("feedback");
-  const explanation = document.getElementById("explanation");
-  const nextBtn = document.getElementById("nextButton");
 
   if (selected === correct) {
     feedback.innerHTML = "✅ 答對了！";
@@ -117,25 +118,24 @@ function checkAnswer(selected) {
     feedback.innerHTML = `❌ 答錯了，正確答案是 ${correct}`;
     wrongBook.push(q);
   }
-  explanation.innerHTML = `📖 解析：${q.explanation || "暫無解析"}`;
-  nextBtn.style.display = "inline-block";
-}
 
-function goToNextQuestion() {
   currentQuestionIndex++;
-  if (currentQuestionIndex < totalToAnswer) {
-    renderQuestion();
-  } else {
-    clearQuizProgress();
-    const score = Math.round((correctCount / totalToAnswer) * 100);
-    localStorage.setItem("ai_quiz_last_score", score);
-    localStorage.setItem("ai_quiz_last_date", new Date().toLocaleDateString());
-    renderResult(score);
-  }
+  setTimeout(() => { answering = false;
+    if (currentQuestionIndex < totalToAnswer) {
+      renderQuestion();
+    } else {
+      clearQuizProgress();
+      const score = Math.round((correctCount / totalToAnswer) * 100);
+      localStorage.setItem("ai_quiz_last_score", score);
+      localStorage.setItem("ai_quiz_last_date", new Date().toLocaleDateString());
+      renderResult(score);
+    }
+  }, 800);
 }
 
 function renderResult(score) {
   app.innerHTML = `
+  
     <h2>🎉 答題結束</h2>
     <p>✅ 共答對 ${correctCount} 題 / ${totalToAnswer} 題</p>
     <p>📊 分數：${score} 分</p><br/>
@@ -147,14 +147,15 @@ function renderResult(score) {
 
 function renderQuestionList() {
   app.innerHTML = `
+  
     <h2>📘 題庫總覽</h2>
     <button onclick="renderStartScreen()">⬅️ 回首頁</button><br/><br/>
     <ul>
       ${questions.map(q => `
         <li>
           <div class="category-label">${q.category}</div>
-          <strong>${q.question}</strong><br/>
-          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt}</span>`).join(" / ")}<br/>
+          <strong>Q${q.id}：${q.question}</strong><br/>
+          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt} </span>`).join(" / ")}<br/>
           ✅ 正解：${q.answer}<br/><br/>
         </li>
       `).join("")}
@@ -165,6 +166,7 @@ function renderQuestionList() {
 function renderWrongBook() {
   if (wrongBook.length === 0) {
     app.innerHTML = `
+  
       <h2>❌ 錯題本</h2>
       <p>目前沒有錯題紀錄 🎉</p>
       <button onclick="renderStartScreen()">⬅️ 回首頁</button>
@@ -172,6 +174,7 @@ function renderWrongBook() {
     return;
   }
   app.innerHTML = `
+  
     <h2>❌ 錯題本</h2>
     <button onclick="renderStartScreen()">⬅️ 回首頁</button>
     <button onclick="retryWrongBook()">♻️ 錯題再挑戰</button>
@@ -179,8 +182,8 @@ function renderWrongBook() {
       ${wrongBook.map(q => `
         <li>
           <div class="category-label">${q.category}</div>
-          <strong>${q.question}</strong><br/>
-          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt}</span>`).join(" / ")}<br/>
+          <strong>Q${q.id}：${q.question}</strong><br/>
+          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt} </span>`).join(" / ")}<br/>
           ✅ 正解：${q.answer}<br/><br/>
         </li>
       `).join("")}
@@ -203,16 +206,19 @@ function stopQuiz() {
   renderStartScreen();
 }
 
+
+
 fetch("ai_question_bank_v1_fixed.json")
-  .then(res => {
+  .then(function(res) {
     if (!res.ok) throw new Error("題庫載入失敗");
     return res.json();
   })
-  .then(data => {
+  .then(function(data) {
+    console.log("✅ 題庫載入成功，共", data.length, "題");
     questions = data;
     renderStartScreen();
   })
-  .catch(err => {
+  .catch(function(err) {
     console.error("❌ 題庫讀取錯誤：", err);
-    app.innerHTML = "<p style='color:red;'>🚫 題庫載入失敗，請稍後重試。</p>";
+    document.getElementById("root").innerHTML = "<p style='color:red;'>🚫 題庫載入失敗，請稍後重試。</p>";
   });

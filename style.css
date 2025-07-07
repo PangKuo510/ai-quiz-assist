@@ -1,0 +1,53 @@
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  padding: 1em;
+  background: #f9fafb;
+  color: #111827;
+  max-width: 720px;
+  margin: auto;
+}
+button {
+  margin: 6px 0;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.progress-bar {
+  height: 10px;
+  background: #d1d5db;
+  margin: 8px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: #3b82f6;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+.category-label {
+  display: inline-block;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 2px 6px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 1em;
+  }
+  button {
+    width: 100%;
+  }
+}
