@@ -51,3 +51,59 @@ ul {
     width: 100%;
   }
 }
+.btn-panel {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.btn-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.btn-row:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.main-btn {
+  font-size: 1.25em;
+  font-weight: bold;
+  width: 100%;
+  min-height: 48px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 0;
+  margin-right: 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.main-btn:hover { background: #1d4ed8; }
+
+.btn-row-3 button {
+  flex: 1 1 0;
+  margin: 0 4px;
+  min-height: 44px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  background: #e0e7ff;
+  color: #2563eb;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-row-3 button:hover {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+.btn-row-3 button:first-child { margin-left: 0; }
+.btn-row-3 button:last-child  { margin-right: 0; }
+
