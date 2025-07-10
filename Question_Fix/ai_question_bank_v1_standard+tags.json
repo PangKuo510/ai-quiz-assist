@@ -9701,15 +9701,15 @@
     "id": 523,
     "question": "GPT-3具有多少個參數？",
     "options": [
-      "A. A. 億",
-      "B. B. 50億",
-      "C. C. 萬",
-      "D. D. 5億"
+      "A. 10億",
+      "B. 1750億",
+      "C. 10萬",
+      "D. 175億"
     ],
     "answer": "B",
     "category": "通用問題",
     "importance": "normal",
-    "explanation": "本題正確答案為B，因為「B. 50億」最符合題目內容。",
+    "explanation": "本題正確答案為B，因為「B. 1750億」最符合題目內容。",
     "tags": [
       "Transformer"
     ]
