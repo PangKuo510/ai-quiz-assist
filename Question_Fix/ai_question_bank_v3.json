@@ -22500,9 +22500,9 @@
     "id": 1240,
     "question": "AzureOpenAI與AzureAI服務的主要區別是？",
     "options": [
-      "A. zureOpenAI主要用於複雜的制定化AI應用",
-      "B. zureAI服務無法用於翻譯",
-      "C. zureAI只能用於個人用途",
+      "A. AzureOpenAI主要用於複雜的制定化AI應用",
+      "B. AzureAI服務無法用於翻譯",
+      "C. AzureAI只能用於個人用途",
       "D. 兩者無任何區別"
     ],
     "answer": "A",
