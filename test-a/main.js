@@ -39,7 +39,13 @@ fetch("ai_question_bank_v3.json")
     return res.json();
   })
   .then(data => {
-    questions = data;
+    questions = data.map(q => {
+      if (typeof q.importance === "string") {
+        const mapping = { "low": 1, "below medium": 2, "medium": 3, "above medium": 4, "high": 5 };
+        q.importance = mapping[q.importance.toLowerCase()] || 1;
+      }
+      return q;
+    });
     renderStartScreen();
   })
   .catch(err => {
