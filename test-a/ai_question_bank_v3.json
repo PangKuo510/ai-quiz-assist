@@ -25032,5 +25032,1507 @@
     "tags": [
       "AI定義"
     ]
+  },
+  {
+    "id": 3001,
+    "question": "企業導入AI自動化，最先要考量的因素為何？",
+    "options": [
+      "A. 資料品質與可用性",
+      "B. 選擇AI開發框架",
+      "C. 投入預算",
+      "D. 設計視覺化介面"
+    ],
+    "answer": "A",
+    "category": "AI應用規劃",
+    "importance": "high",
+    "explanation": "資料品質直接影響AI應用成效，是規劃首要考量。",
+    "tags": ["AI應用", "資料品質", "自動化"]
+  },
+  {
+    "id": 3002,
+    "question": "哪一項是常見的AI應用倫理議題？",
+    "options": [
+      "A. 計算效能提升",
+      "B. 漏斗分析模型選擇",
+      "C. 演算法偏見",
+      "D. 模型部署方式"
+    ],
+    "answer": "C",
+    "category": "倫理與法規",
+    "importance": "high",
+    "explanation": "演算法偏見會影響決策公平性，是主要倫理議題。",
+    "tags": ["AI倫理", "偏見", "公平性"]
+  },
+  {
+    "id": 3003,
+    "question": "在AI專案初期，資料標註工作最常由誰負責？",
+    "options": [
+      "A. 軟體工程師",
+      "B. 業務主管",
+      "C. 專案助理或人工標註團隊",
+      "D. AI系統自動處理"
+    ],
+    "answer": "C",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "多數AI專案初期標註需仰賴人工團隊。",
+    "tags": ["資料標註", "專案管理"]
+  },
+  {
+    "id": 3004,
+    "question": "下列何者不是AI應用的常見限制？",
+    "options": [
+      "A. 法規合規問題",
+      "B. 演算法複雜度高",
+      "C. 資料來源可靠",
+      "D. 運算資源不足"
+    ],
+    "answer": "C",
+    "category": "AI應用規劃",
+    "importance": "medium",
+    "explanation": "可靠的資料來源有助AI應用，不屬於限制。",
+    "tags": ["AI應用", "限制"]
+  },
+  {
+    "id": 3005,
+    "question": "數據前處理常見步驟包含？",
+    "options": [
+      "A. 特徵工程與資料清理",
+      "B. 模型選型",
+      "C. 選擇雲端服務商",
+      "D. 規劃行銷策略"
+    ],
+    "answer": "A",
+    "category": "數據處理",
+    "importance": "high",
+    "explanation": "特徵工程與資料清理是數據前處理要點。",
+    "tags": ["數據處理", "前處理"]
+  },
+  {
+    "id": 3006,
+    "question": "若資料高度不平衡，AI分類模型容易？",
+    "options": [
+      "A. 過度偏向多數類別",
+      "B. 增加模型運算速度",
+      "C. 精度提升",
+      "D. 自動產生新特徵"
+    ],
+    "answer": "A",
+    "category": "AI建模",
+    "importance": "high",
+    "explanation": "資料不平衡會使模型傾向多數類別。",
+    "tags": ["資料不平衡", "分類", "模型偏差"]
+  },
+  {
+    "id": 3007,
+    "question": "AI導入客服系統的最大效益是？",
+    "options": [
+      "A. 降低人力成本與即時回應",
+      "B. 強化網頁設計",
+      "C. 增加數據儲存空間",
+      "D. 擴大行銷預算"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "AI客服可大幅降低人力成本並即時服務客戶。",
+    "tags": ["產業應用", "客服AI"]
+  },
+  {
+    "id": 3008,
+    "question": "下列哪一項有助於提升AI預測模型的準確度？",
+    "options": [
+      "A. 資料前處理與特徵選擇",
+      "B. 增加模型複雜度",
+      "C. 只依賴訓練數據",
+      "D. 忽略異常值"
+    ],
+    "answer": "A",
+    "category": "AI建模",
+    "importance": "high",
+    "explanation": "良好的前處理與特徵選擇有助提升模型準確度。",
+    "tags": ["建模", "準確度", "特徵工程"]
+  },
+  {
+    "id": 3009,
+    "question": "AI模型部署上線後，最重要的持續任務為何？",
+    "options": [
+      "A. 持續監控與模型更新",
+      "B. 只需備份資料",
+      "C. 終止原有流程",
+      "D. 停止資料蒐集"
+    ],
+    "answer": "A",
+    "category": "運維管理",
+    "importance": "high",
+    "explanation": "持續監控與定期更新是確保模型效能關鍵。",
+    "tags": ["部署", "運維", "監控"]
+  },
+  {
+    "id": 3010,
+    "question": "生成式AI最常見的應用場景為？",
+    "options": [
+      "A. 文字內容生成",
+      "B. 網路安全監控",
+      "C. IoT數據蒐集",
+      "D. 雲端資料備份"
+    ],
+    "answer": "A",
+    "category": "AI應用",
+    "importance": "high",
+    "explanation": "生成式AI廣泛用於文本、圖像等內容生成。",
+    "tags": ["生成式AI", "內容生成"]
+  },
+  {
+    "id": 3011,
+    "question": "為何需要AI模型評估指標（如Precision、Recall）？",
+    "options": [
+      "A. 量化模型效能，方便比較與調整",
+      "B. 測試網頁載入速度",
+      "C. 儲存更多資料",
+      "D. 只用來決定預算"
+    ],
+    "answer": "A",
+    "category": "AI建模",
+    "importance": "medium",
+    "explanation": "評估指標有助於量化模型表現與優化方向。",
+    "tags": ["評估指標", "效能評估"]
+  },
+  {
+    "id": 3012,
+    "question": "AI聊天機器人能協助企業完成下列哪項任務？",
+    "options": [
+      "A. 提升客戶互動體驗",
+      "B. 管理網路設備硬體",
+      "C. 增強電力穩定性",
+      "D. 編輯影像影片"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "AI聊天機器人能有效提升客戶互動與滿意度。",
+    "tags": ["聊天機器人", "產業應用"]
+  },
+  {
+    "id": 3013,
+    "question": "企業引進AI前需先檢視哪項風險？",
+    "options": [
+      "A. 數據安全與隱私",
+      "B. 員工年度旅遊",
+      "C. 商標註冊",
+      "D. 硬體升級方案"
+    ],
+    "answer": "A",
+    "category": "風險管理",
+    "importance": "high",
+    "explanation": "數據安全與隱私是AI導入必須優先檢視的風險。",
+    "tags": ["風險管理", "數據安全"]
+  },
+  {
+    "id": 3014,
+    "question": "下列何者屬於AI在醫療領域常見應用？",
+    "options": [
+      "A. 疾病診斷輔助",
+      "B. 建築設計自動化",
+      "C. 影像壓縮",
+      "D. 遊戲配對"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "AI輔助醫療診斷可提高醫療品質與效率。",
+    "tags": ["醫療AI", "診斷輔助"]
+  },
+  {
+    "id": 3015,
+    "question": "何謂AI模型的可解釋性（Explainability）？",
+    "options": [
+      "A. 能理解模型預測原因與邏輯",
+      "B. 提升演算法運算速度",
+      "C. 增加模型複雜度",
+      "D. 減少資料標註需求"
+    ],
+    "answer": "A",
+    "category": "AI理論",
+    "importance": "medium",
+    "explanation": "可解釋性指能了解模型如何做出預測。",
+    "tags": ["可解釋性", "AI理論"]
+  },
+  {
+    "id": 3016,
+    "question": "當企業欲跨部門推動AI專案，首先應？",
+    "options": [
+      "A. 建立跨部門溝通機制",
+      "B. 直接購買AI軟體",
+      "C. 優先裁減人力",
+      "D. 放棄舊有流程"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "良好溝通機制是跨部門AI專案成功關鍵。",
+    "tags": ["專案管理", "跨部門協作"]
+  },
+  {
+    "id": 3017,
+    "question": "AI在智慧製造的應用不包含下列哪一項？",
+    "options": [
+      "A. 自動化品檢",
+      "B. 生產排程最佳化",
+      "C. 營收稅務申報",
+      "D. 故障預測維護"
+    ],
+    "answer": "C",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "營收稅務申報較少由AI於智慧製造中應用。",
+    "tags": ["智慧製造", "產業應用"]
+  },
+  {
+    "id": 3018,
+    "question": "AI專案失敗的常見原因是？",
+    "options": [
+      "A. 目標不明與需求變動",
+      "B. 算法選擇過多",
+      "C. 預算充足",
+      "D. 技術人員過多"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "目標不明和需求頻繁變動常導致專案失敗。",
+    "tags": ["專案失敗", "需求管理"]
+  },
+  {
+    "id": 3019,
+    "question": "AI導入於金融風控時，最重要考量為何？",
+    "options": [
+      "A. 資料安全性與合規性",
+      "B. 新增硬體設備",
+      "C. 擴充網路頻寬",
+      "D. 增設客服人力"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "金融領域應用AI必須高度重視安全與合規。",
+    "tags": ["金融AI", "風控", "合規"]
+  },
+  {
+    "id": 3020,
+    "question": "何謂AI模型過擬合（Overfitting）？",
+    "options": [
+      "A. 模型過度記憶訓練資料，泛化能力下降",
+      "B. 訓練資料過少",
+      "C. 模型訓練速度過快",
+      "D. 使用過多GPU"
+    ],
+    "answer": "A",
+    "category": "AI理論",
+    "importance": "high",
+    "explanation": "過擬合會導致模型在新資料表現不佳。",
+    "tags": ["過擬合", "模型泛化"]
+  },
+  {
+    "id": 3021,
+    "question": "AI應用導入前，哪一項行動最有助於專案成功？",
+    "options": [
+      "A. 需求明確定義",
+      "B. 直接選購現成AI軟體",
+      "C. 優先壓縮預算",
+      "D. 減少測試階段"
+    ],
+    "answer": "A",
+    "category": "AI應用規劃",
+    "importance": "high",
+    "explanation": "明確定義需求可大幅提升專案成功率。",
+    "tags": ["需求分析", "專案成功"]
+  },
+  {
+    "id": 3022,
+    "question": "下列哪一項最能反映AI專案落地的難點？",
+    "options": [
+      "A. 資料收集困難",
+      "B. 新模型開發太快",
+      "C. 員工旅遊時間",
+      "D. 網頁設計美觀"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "缺乏合適資料是AI專案落地常見挑戰。",
+    "tags": ["資料收集", "落地挑戰"]
+  },
+  {
+    "id": 3023,
+    "question": "在AI流程自動化中，下列何者可提升流程彈性？",
+    "options": [
+      "A. 模組化設計",
+      "B. 只用單一工具",
+      "C. 忽略回饋意見",
+      "D. 硬編死流程"
+    ],
+    "answer": "A",
+    "category": "流程自動化",
+    "importance": "medium",
+    "explanation": "模組化設計能根據需求靈活調整流程。",
+    "tags": ["自動化", "模組化"]
+  },
+  {
+    "id": 3024,
+    "question": "AI應用中，「資料漂移」可能帶來什麼影響？",
+    "options": [
+      "A. 模型預測準確度下降",
+      "B. 計算速度提升",
+      "C. 儲存空間變多",
+      "D. 員工人數減少"
+    ],
+    "answer": "A",
+    "category": "數據管理",
+    "importance": "high",
+    "explanation": "資料漂移會使模型效能下降，需定期監控。",
+    "tags": ["資料漂移", "監控", "預測準確度"]
+  },
+  {
+    "id": 3025,
+    "question": "AI在行銷分析的典型應用是？",
+    "options": [
+      "A. 客戶分群預測",
+      "B. 燈光自動控制",
+      "C. 電力負載管理",
+      "D. 化學反應模擬"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "客戶分群是行銷AI分析的核心應用之一。",
+    "tags": ["行銷AI", "客戶分群"]
+  },
+  {
+    "id": 3026,
+    "question": "哪一項不是AI模型常見的測試指標？",
+    "options": [
+      "A. 精確率",
+      "B. 召回率",
+      "C. 記憶體品牌",
+      "D. F1分數"
+    ],
+    "answer": "C",
+    "category": "AI建模",
+    "importance": "medium",
+    "explanation": "記憶體品牌與模型評估指標無關。",
+    "tags": ["模型測試", "指標"]
+  },
+  {
+    "id": 3027,
+    "question": "若AI專案出現模型效能退化，首要行動應為？",
+    "options": [
+      "A. 檢查資料變化與重新訓練模型",
+      "B. 停止服務",
+      "C. 加大預算",
+      "D. 更換品牌Logo"
+    ],
+    "answer": "A",
+    "category": "運維管理",
+    "importance": "high",
+    "explanation": "資料變化會導致模型退化，須檢查並更新。",
+    "tags": ["效能退化", "模型更新"]
+  },
+  {
+    "id": 3028,
+    "question": "AI應用中，個資保護最重要的措施為？",
+    "options": [
+      "A. 數據去識別化",
+      "B. 增加硬碟容量",
+      "C. 頻繁更換軟體介面",
+      "D. 禁用機器學習"
+    ],
+    "answer": "A",
+    "category": "數據治理",
+    "importance": "high",
+    "explanation": "去識別化能有效保護個人敏感資訊。",
+    "tags": ["個資保護", "數據治理"]
+  },
+  {
+    "id": 3029,
+    "question": "AI專案跨部門溝通失效時最易發生什麼？",
+    "options": [
+      "A. 專案延誤或失敗",
+      "B. 模型自動優化",
+      "C. 員工升遷加快",
+      "D. 演算法自動升級"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "溝通失效會嚴重影響專案進度與成功率。",
+    "tags": ["跨部門", "專案失敗"]
+  },
+  {
+    "id": 3030,
+    "question": "在AI專案資料前處理時，下列何者常見？",
+    "options": [
+      "A. 處理缺失值與異常值",
+      "B. 增加人力編制",
+      "C. 擴大網路頻寬",
+      "D. 縮短工時"
+    ],
+    "answer": "A",
+    "category": "數據處理",
+    "importance": "medium",
+    "explanation": "處理缺失值與異常值是常見前處理步驟。",
+    "tags": ["資料前處理", "缺失值"]
+  },
+  {
+    "id": 3031,
+    "question": "AI專案如何確保資料合法合規？",
+    "options": [
+      "A. 遵循相關法律法規與隱私政策",
+      "B. 增購高效能伺服器",
+      "C. 外包所有流程",
+      "D. 不留紀錄"
+    ],
+    "answer": "A",
+    "category": "風險管理",
+    "importance": "high",
+    "explanation": "遵守法律與隱私政策是資料合規的基礎。",
+    "tags": ["合規", "資料管理"]
+  },
+  {
+    "id": 3032,
+    "question": "AI在醫療影像分析最常見的目標為？",
+    "options": [
+      "A. 疾病自動偵測與分類",
+      "B. 修改醫療帳單",
+      "C. 預約掛號",
+      "D. 醫院建築設計"
+    ],
+    "answer": "A",
+    "category": "醫療應用",
+    "importance": "medium",
+    "explanation": "AI可自動辨識、分類醫療影像中的異常。",
+    "tags": ["醫療AI", "影像分析"]
+  },
+  {
+    "id": 3033,
+    "question": "企業導入AI能創造哪些新商機？",
+    "options": [
+      "A. 智慧產品開發",
+      "B. 專利訴訟",
+      "C. 傳統人力替代",
+      "D. 稅務調查"
+    ],
+    "answer": "A",
+    "category": "AI應用",
+    "importance": "medium",
+    "explanation": "AI驅動智慧產品可開創全新市場。",
+    "tags": ["AI商機", "產品開發"]
+  },
+  {
+    "id": 3034,
+    "question": "下列哪種資料最常用於AI訓練模型？",
+    "options": [
+      "A. 結構化數據",
+      "B. 手寫信件",
+      "C. 原始照片",
+      "D. 影印文件"
+    ],
+    "answer": "A",
+    "category": "數據處理",
+    "importance": "medium",
+    "explanation": "結構化數據最利於AI模型分析與訓練。",
+    "tags": ["訓練數據", "結構化資料"]
+  },
+  {
+    "id": 3035,
+    "question": "AI在智慧城市中的應用不包含？",
+    "options": [
+      "A. 智能交通管理",
+      "B. 公共安全監控",
+      "C. 金融風控",
+      "D. 電力分配最佳化"
+    ],
+    "answer": "C",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "金融風控屬於金融業應用，與智慧城市關聯較低。",
+    "tags": ["智慧城市", "產業應用"]
+  },
+  {
+    "id": 3036,
+    "question": "AI應用專案驗收時常見指標為？",
+    "options": [
+      "A. 成功率與準確率",
+      "B. 員工滿意度",
+      "C. 網站點擊數",
+      "D. 伺服器數量"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "驗收指標多以專案成功率與模型準確率為主。",
+    "tags": ["驗收", "專案指標"]
+  },
+  {
+    "id": 3037,
+    "question": "AI導入製造業時，對資料蒐集的需求為？",
+    "options": [
+      "A. 高質量、完整且即時的資料",
+      "B. 只需歷史資料",
+      "C. 可以只靠網路抓取",
+      "D. 無須蒐集資料"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "高質量即時資料有助提升製造AI預測效果。",
+    "tags": ["製造業", "資料蒐集"]
+  },
+  {
+    "id": 3038,
+    "question": "AI自動化流程設計時，哪個環節最需人機協作？",
+    "options": [
+      "A. 異常判斷與關鍵決策",
+      "B. 資料備份",
+      "C. 系統安裝",
+      "D. 預算編列"
+    ],
+    "answer": "A",
+    "category": "流程自動化",
+    "importance": "medium",
+    "explanation": "異常判斷與重大決策常需人機協同進行。",
+    "tags": ["人機協作", "自動化"]
+  },
+  {
+    "id": 3039,
+    "question": "AI應用專案預算編列時應？",
+    "options": [
+      "A. 預留持續維運及升級經費",
+      "B. 只編一次性費用",
+      "C. 完全不考慮人力成本",
+      "D. 不需規劃備援"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "AI專案需考慮長期維運與升級成本。",
+    "tags": ["預算編列", "專案管理"]
+  },
+  {
+    "id": 3040,
+    "question": "AI導入教育產業常見應用為？",
+    "options": [
+      "A. 智慧教學輔助系統",
+      "B. 增加紙本考試",
+      "C. 強化體育設施",
+      "D. 建置圖書館"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "智慧教學系統是教育AI的主流應用。",
+    "tags": ["教育AI", "智慧教學"]
+  },
+  {
+    "id": 3041,
+    "question": "AI系統面臨法規遵循問題時，首要措施為？",
+    "options": [
+      "A. 主動檢查並調整系統設計",
+      "B. 暫停所有資料蒐集",
+      "C. 關閉伺服器",
+      "D. 遷移海外伺服中心"
+    ],
+    "answer": "A",
+    "category": "風險管理",
+    "importance": "high",
+    "explanation": "主動檢查並調整可降低法規風險與罰責。",
+    "tags": ["法規遵循", "風險管理"]
+  },
+  {
+    "id": 3042,
+    "question": "下列哪一種AI應用最易引發個資爭議？",
+    "options": [
+      "A. 臉部辨識系統",
+      "B. 智慧倉儲管理",
+      "C. 農業產量預測",
+      "D. 氣象模擬"
+    ],
+    "answer": "A",
+    "category": "倫理與法規",
+    "importance": "high",
+    "explanation": "臉部辨識涉及個人隱私，常引發爭議。",
+    "tags": ["個資", "倫理議題"]
+  },
+  {
+    "id": 3043,
+    "question": "AI導入後，產生的資料增長帶來哪些挑戰？",
+    "options": [
+      "A. 儲存管理與資料治理需求提升",
+      "B. 員工減少",
+      "C. 電力消耗降低",
+      "D. 網頁設計變簡單"
+    ],
+    "answer": "A",
+    "category": "數據治理",
+    "importance": "medium",
+    "explanation": "資料增長使儲存與治理需求同步提升。",
+    "tags": ["資料治理", "儲存管理"]
+  },
+  {
+    "id": 3044,
+    "question": "企業利用AI預測業績時，何者最重要？",
+    "options": [
+      "A. 資料正確性與時效性",
+      "B. 增加員工訓練次數",
+      "C. 縮短會議時間",
+      "D. 裝修辦公室"
+    ],
+    "answer": "A",
+    "category": "應用實務",
+    "importance": "high",
+    "explanation": "正確且即時的資料為預測準確關鍵。",
+    "tags": ["業績預測", "資料正確性"]
+  },
+  {
+    "id": 3045,
+    "question": "AI系統維護時應注意哪些潛在風險？",
+    "options": [
+      "A. 系統漏洞與資安威脅",
+      "B. 行銷廣告費用",
+      "C. 新增辦公桌椅",
+      "D. 外包旅遊安排"
+    ],
+    "answer": "A",
+    "category": "運維管理",
+    "importance": "high",
+    "explanation": "維護期間資安威脅和漏洞需嚴加防範。",
+    "tags": ["資安", "系統維護"]
+  },
+  {
+    "id": 3046,
+    "question": "AI專案成果發表時常見溝通障礙為？",
+    "options": [
+      "A. 專有名詞難懂",
+      "B. 電腦螢幕過亮",
+      "C. 文件頁數過多",
+      "D. 會場座位不足"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "專有名詞過多導致聽眾理解困難。",
+    "tags": ["溝通", "成果發表"]
+  },
+  {
+    "id": 3047,
+    "question": "AI專案驗證成效時，哪一項最重要？",
+    "options": [
+      "A. 實際業務效益提升",
+      "B. 團隊人數增減",
+      "C. 網頁色彩設計",
+      "D. 伺服器品牌"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "業務效益提升是AI專案成效最直接指標。",
+    "tags": ["成效驗證", "業務效益"]
+  },
+  {
+    "id": 3048,
+    "question": "企業導入AI決策輔助系統的關鍵目的？",
+    "options": [
+      "A. 提升決策效率與精確度",
+      "B. 減少電子郵件數量",
+      "C. 增加紙張用量",
+      "D. 降低租金"
+    ],
+    "answer": "A",
+    "category": "應用實務",
+    "importance": "medium",
+    "explanation": "決策輔助系統能大幅提升效率與精確度。",
+    "tags": ["決策輔助", "效率提升"]
+  },
+  {
+    "id": 3049,
+    "question": "AI自動化流程若缺乏人工介入，可能導致？",
+    "options": [
+      "A. 關鍵異常無法即時處理",
+      "B. 模型效率提升",
+      "C. 測試人員減少",
+      "D. 系統容量增加"
+    ],
+    "answer": "A",
+    "category": "流程自動化",
+    "importance": "high",
+    "explanation": "完全自動化易導致異常處理延遲。",
+    "tags": ["流程管理", "異常處理"]
+  },
+  {
+    "id": 3050,
+    "question": "AI模型若持續無效，應採取下列哪項行動？",
+    "options": [
+      "A. 重新檢查資料品質與特徵",
+      "B. 降低模型複雜度",
+      "C. 增加休息時間",
+      "D. 增聘行銷人員"
+    ],
+    "answer": "A",
+    "category": "AI建模",
+    "importance": "high",
+    "explanation": "檢查資料與特徵有助發現模型無效根因。",
+    "tags": ["模型無效", "資料品質"]
+  },
+  {
+    "id": 3051,
+    "question": "AI導入專案管理流程時，最需重視哪一環？",
+    "options": [
+      "A. 需求溝通與範疇明確",
+      "B. 資料備份方式",
+      "C. 員工午餐菜單",
+      "D. 伺服器外觀設計"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "明確需求溝通能減少專案風險。",
+    "tags": ["專案管理", "需求溝通"]
+  },
+  {
+    "id": 3052,
+    "question": "AI專案導入時，產業合作的關鍵效益為？",
+    "options": [
+      "A. 知識整合與資源共享",
+      "B. 增加硬體採購量",
+      "C. 提升會議次數",
+      "D. 增加文件頁數"
+    ],
+    "answer": "A",
+    "category": "產業整合",
+    "importance": "medium",
+    "explanation": "產業合作有助知識整合與資源共享。",
+    "tags": ["產業合作", "資源共享"]
+  },
+  {
+    "id": 3053,
+    "question": "AI應用於交通管理主要優勢為？",
+    "options": [
+      "A. 即時預測與路徑最佳化",
+      "B. 降低路面鋪設成本",
+      "C. 增加車輛數量",
+      "D. 擴大路燈面積"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "AI提升交通管理即時預測與路徑優化能力。",
+    "tags": ["交通AI", "預測"]
+  },
+  {
+    "id": 3054,
+    "question": "AI在金融產業應用最常見的領域為？",
+    "options": [
+      "A. 欺詐偵測與風控",
+      "B. 保險理賠手動審查",
+      "C. 增加分行數量",
+      "D. 強化實體安全"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "AI金融應用以欺詐偵測與風控最為常見。",
+    "tags": ["金融AI", "欺詐偵測"]
+  },
+  {
+    "id": 3055,
+    "question": "AI自動化生產線優勢為？",
+    "options": [
+      "A. 提升生產效率與品質穩定",
+      "B. 增加管理層級",
+      "C. 降低自動化程度",
+      "D. 擴大辦公面積"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "自動化生產線能提升效率與穩定品質。",
+    "tags": ["自動化", "生產線"]
+  },
+  {
+    "id": 3056,
+    "question": "AI推動智慧農業的應用重點為？",
+    "options": [
+      "A. 精準灌溉與生產預測",
+      "B. 增加耕作面積",
+      "C. 手動施肥",
+      "D. 只依賴氣象預報"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "精準灌溉與預測能提升農業效率。",
+    "tags": ["智慧農業", "生產預測"]
+  },
+  {
+    "id": 3057,
+    "question": "AI應用於零售業的主要目的為？",
+    "options": [
+      "A. 精準行銷與庫存管理",
+      "B. 擴大店面面積",
+      "C. 增加商品種類",
+      "D. 降低員工薪資"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "AI助力零售精準行銷與智能庫存管理。",
+    "tags": ["零售AI", "庫存管理"]
+  },
+  {
+    "id": 3058,
+    "question": "AI導入醫療產業可帶來何效益？",
+    "options": [
+      "A. 診斷準確率提升",
+      "B. 增加住院天數",
+      "C. 減少醫生數量",
+      "D. 強化醫院建築"
+    ],
+    "answer": "A",
+    "category": "醫療應用",
+    "importance": "high",
+    "explanation": "AI提升醫療診斷準確與效率。",
+    "tags": ["醫療AI", "診斷"]
+  },
+  {
+    "id": 3059,
+    "question": "AI專案失敗時常見的善後措施為？",
+    "options": [
+      "A. 復盤檢討與經驗分享",
+      "B. 立即裁員",
+      "C. 關閉全部服務",
+      "D. 隱瞞問題"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "復盤檢討有助於後續專案成功。",
+    "tags": ["專案失敗", "經驗復盤"]
+  },
+  {
+    "id": 3060,
+    "question": "AI應用專案成果轉化為商業價值時，首要關鍵？",
+    "options": [
+      "A. 實際解決產業痛點",
+      "B. 增加投影片頁數",
+      "C. 強化辦公室裝潢",
+      "D. 招聘更多助理"
+    ],
+    "answer": "A",
+    "category": "應用實務",
+    "importance": "high",
+    "explanation": "能解決實際痛點才能轉化為商業價值。",
+    "tags": ["商業價值", "應用落地"]
+  },
+  {
+    "id": 3061,
+    "question": "AI模型訓練過程中，若資料過度清洗可能會造成什麼問題？",
+    "options": [
+      "A. 模型準確率提升",
+      "B. 有效資訊流失",
+      "C. 資料集增加",
+      "D. 特徵維度上升"
+    ],
+    "answer": "B",
+    "category": "數據處理",
+    "importance": "medium",
+    "explanation": "過度清洗易使有效資訊流失，影響模型學習。",
+    "tags": ["數據清洗", "模型訓練"]
+  },
+  {
+    "id": 3062,
+    "question": "企業利用AI進行市場預測時，哪一項為最佳策略？",
+    "options": [
+      "A. 完全依賴AI預測結果",
+      "B. 結合AI預測與專家判斷",
+      "C. 減少數據來源",
+      "D. 只看歷史數據"
+    ],
+    "answer": "B",
+    "category": "應用實務",
+    "importance": "high",
+    "explanation": "結合AI預測與專家判斷能提升決策準確度。",
+    "tags": ["市場預測", "AI應用"]
+  },
+  {
+    "id": 3063,
+    "question": "AI專案驗收時發現效果不如預期，最適當做法？",
+    "options": [
+      "A. 立即終止專案",
+      "B. 重新檢視模型與資料流程",
+      "C. 增加獎金激勵",
+      "D. 遷移專案團隊"
+    ],
+    "answer": "B",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "應優先檢查模型與資料流程，找出成因改善。",
+    "tags": ["專案驗收", "流程檢討"]
+  },
+  {
+    "id": 3064,
+    "question": "AI應用系統若遭遇不明輸入攻擊，建議優先？",
+    "options": [
+      "A. 停止外部數據連線",
+      "B. 強化資料驗證與異常偵測",
+      "C. 增加行銷預算",
+      "D. 精簡伺服器數量"
+    ],
+    "answer": "B",
+    "category": "資安管理",
+    "importance": "high",
+    "explanation": "加強驗證與異常偵測能防堵輸入攻擊風險。",
+    "tags": ["資安", "異常偵測"]
+  },
+  {
+    "id": 3065,
+    "question": "AI模型在不同資料集表現差異大，可能原因為？",
+    "options": [
+      "A. 選用最新演算法",
+      "B. 資料分布不一致",
+      "C. 增加訓練回合數",
+      "D. 強化網路連線"
+    ],
+    "answer": "B",
+    "category": "模型管理",
+    "importance": "medium",
+    "explanation": "資料分布不一致會造成模型泛化困難。",
+    "tags": ["資料分布", "泛化"]
+  },
+  {
+    "id": 3066,
+    "question": "AI專案導入時，最適合的跨部門協作方式？",
+    "options": [
+      "A. 單線分工制",
+      "B. 跨部門協同平台",
+      "C. 只由IT部門決策",
+      "D. 資訊孤島"
+    ],
+    "answer": "B",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "跨部門協同平台能促進溝通與資源整合。",
+    "tags": ["跨部門", "協作"]
+  },
+  {
+    "id": 3067,
+    "question": "AI模型若常出現過擬合，哪一措施最有效？",
+    "options": [
+      "A. 增加訓練次數",
+      "B. 減少特徵維度或使用正則化",
+      "C. 擴大樣本量",
+      "D. 延長專案時程"
+    ],
+    "answer": "B",
+    "category": "模型管理",
+    "importance": "high",
+    "explanation": "減少特徵或用正則化能有效抑制過擬合現象。",
+    "tags": ["過擬合", "正則化"]
+  },
+  {
+    "id": 3068,
+    "question": "AI專案若欲保障知識產權，應優先？",
+    "options": [
+      "A. 進行專利申請與技術保密",
+      "B. 擴大市場宣傳",
+      "C. 開放原始碼",
+      "D. 精簡團隊成員"
+    ],
+    "answer": "A",
+    "category": "風險管理",
+    "importance": "medium",
+    "explanation": "專利申請與保密措施能有效保障知識產權。",
+    "tags": ["知識產權", "專利"]
+  },
+  {
+    "id": 3069,
+    "question": "導入AI預測維護後，哪項效益最明顯？",
+    "options": [
+      "A. 設備故障率下降",
+      "B. 增加人工巡檢頻率",
+      "C. 電力消耗上升",
+      "D. 減少訓練資料"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "AI預測維護可大幅降低設備故障率。",
+    "tags": ["預測維護", "產業應用"]
+  },
+  {
+    "id": 3070,
+    "question": "AI應用專案中，何者屬於倫理風險？",
+    "options": [
+      "A. 資料偏見影響決策",
+      "B. 雲端備份失效",
+      "C. 電力中斷",
+      "D. 記憶體容量不足"
+    ],
+    "answer": "A",
+    "category": "倫理與法規",
+    "importance": "high",
+    "explanation": "資料偏見可能造成決策不公，是倫理風險之一。",
+    "tags": ["倫理", "資料偏見"]
+  },
+  {
+    "id": 3071,
+    "question": "企業AI應用導入流程，哪一階段常需法務參與？",
+    "options": [
+      "A. 訓練資料收集",
+      "B. 系統開發初期",
+      "C. 專案預算核定",
+      "D. 合約簽署與資料授權"
+    ],
+    "answer": "D",
+    "category": "法規合規",
+    "importance": "medium",
+    "explanation": "合約簽署及授權常涉及法務單位參與審查。",
+    "tags": ["法規", "合約授權"]
+  },
+  {
+    "id": 3072,
+    "question": "AI在供應鏈管理最大優勢是？",
+    "options": [
+      "A. 即時預測與最佳化排程",
+      "B. 增加存貨量",
+      "C. 縮短員工輪班時間",
+      "D. 擴增會議次數"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "AI能協助供應鏈即時預測並最佳化排程。",
+    "tags": ["供應鏈", "預測"]
+  },
+  {
+    "id": 3073,
+    "question": "AI專案經驗分享最適合在什麼時機進行？",
+    "options": [
+      "A. 專案結束後進行經驗復盤",
+      "B. 訓練階段",
+      "C. 模型測試時",
+      "D. 預算審核期間"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "專案結束後進行復盤可累積實戰經驗。",
+    "tags": ["經驗復盤", "知識管理"]
+  },
+  {
+    "id": 3074,
+    "question": "AI模型上線後出現資料漂移，應採取？",
+    "options": [
+      "A. 重新評估模型與資料",
+      "B. 暫停新功能開發",
+      "C. 增聘維護人員",
+      "D. 只用原始訓練集"
+    ],
+    "answer": "A",
+    "category": "模型管理",
+    "importance": "high",
+    "explanation": "資料漂移需重新評估模型與資料以修正偏差。",
+    "tags": ["資料漂移", "模型管理"]
+  },
+  {
+    "id": 3075,
+    "question": "AI模型部署於雲端時最大優勢為？",
+    "options": [
+      "A. 彈性擴展與維運便利",
+      "B. 增加設備購置成本",
+      "C. 固定運算資源",
+      "D. 減少數據來源"
+    ],
+    "answer": "A",
+    "category": "運維管理",
+    "importance": "high",
+    "explanation": "雲端部署具備彈性擴展及運維便利優勢。",
+    "tags": ["雲端部署", "運維"]
+  },
+  {
+    "id": 3076,
+    "question": "企業利用AI分析員工離職風險，正確流程為？",
+    "options": [
+      "A. 收集歷史數據，標記離職情境",
+      "B. 只憑直覺分析",
+      "C. 減少問卷調查",
+      "D. 忽略數據隱私"
+    ],
+    "answer": "A",
+    "category": "應用實務",
+    "importance": "medium",
+    "explanation": "需用歷史數據標記情境，才能建立預測模型。",
+    "tags": ["離職分析", "數據應用"]
+  },
+  {
+    "id": 3077,
+    "question": "AI應用於智慧電網有助於？",
+    "options": [
+      "A. 動態分配與預測能源使用",
+      "B. 增加停電頻率",
+      "C. 降低電網投資",
+      "D. 減少數據分析"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "AI可動態分配與預測電網能源，提升效率。",
+    "tags": ["智慧電網", "能源預測"]
+  },
+  {
+    "id": 3078,
+    "question": "AI專案中，異常值處理不當可能導致？",
+    "options": [
+      "A. 預測結果失真",
+      "B. 訓練速度提升",
+      "C. 模型複雜度降低",
+      "D. 資料量大增"
+    ],
+    "answer": "A",
+    "category": "數據處理",
+    "importance": "high",
+    "explanation": "異常值若處理不當，會影響預測結果準確性。",
+    "tags": ["異常值", "預測失真"]
+  },
+  {
+    "id": 3079,
+    "question": "企業利用AI優化客服時，應關注？",
+    "options": [
+      "A. 回應速度與客戶滿意度",
+      "B. 增加客服中心面積",
+      "C. 減少客服人員訓練",
+      "D. 固定回應腳本"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "提升回應速度與客戶滿意度為關注重點。",
+    "tags": ["客服AI", "用戶體驗"]
+  },
+  {
+    "id": 3080,
+    "question": "AI導入專案時，哪項做法有助於防止功能漂移？",
+    "options": [
+      "A. 定期回顧與需求確認",
+      "B. 只關注技術細節",
+      "C. 隨時更換團隊成員",
+      "D. 增加會議時數"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "medium",
+    "explanation": "定期回顧可及時修正需求，防止功能漂移。",
+    "tags": ["功能漂移", "需求管理"]
+  },
+  {
+    "id": 3081,
+    "question": "企業AI專案運行數月後出現「模型效能遞減」，最合理初步診斷為？",
+    "options": [
+      "A. 資料分布產生漂移",
+      "B. 雲端計費異常",
+      "C. 開發語言選錯",
+      "D. 專案經理輪替"
+    ],
+    "answer": "A",
+    "category": "模型管理",
+    "importance": "high",
+    "explanation": "資料分布漂移會導致模型效能逐漸下降。",
+    "tags": ["模型效能", "資料漂移"]
+  },
+  {
+    "id": 3082,
+    "question": "下列何者最能有效減緩AI模型在極端情境下失效？",
+    "options": [
+      "A. 擴增異常數據進行訓練",
+      "B. 定期優化硬體效能",
+      "C. 減少訓練資料量",
+      "D. 固定模型架構不變"
+    ],
+    "answer": "A",
+    "category": "AI建模",
+    "importance": "high",
+    "explanation": "加入異常數據可提升模型在極端狀況下韌性。",
+    "tags": ["極端值", "模型韌性"]
+  },
+  {
+    "id": 3083,
+    "question": "企業欲結合AI與IoT於即時產線監控，最重要的技術挑戰為？",
+    "options": [
+      "A. 資料即時傳輸與系統整合",
+      "B. 增加照明設備",
+      "C. 減少產線工人數",
+      "D. 網頁設計風格"
+    ],
+    "answer": "A",
+    "category": "產業整合",
+    "importance": "high",
+    "explanation": "IoT與AI整合時需重視資料即時性與系統連通。",
+    "tags": ["IoT", "即時監控", "系統整合"]
+  },
+  {
+    "id": 3084,
+    "question": "針對自然語言生成(NLG)模型，防止產生有害內容的最佳策略？",
+    "options": [
+      "A. 多層次自動審查與人審結合",
+      "B. 限制資料來源語言種類",
+      "C. 減少訓練參數數量",
+      "D. 採用開放授權數據"
+    ],
+    "answer": "A",
+    "category": "AI倫理",
+    "importance": "high",
+    "explanation": "結合自動審查與人工審查最能防止有害內容。",
+    "tags": ["NLG", "有害內容", "審查"]
+  },
+  {
+    "id": 3085,
+    "question": "AI系統於醫療臨床決策輔助時，何者最需特別關注？",
+    "options": [
+      "A. 演算法透明度與可解釋性",
+      "B. 團隊規模",
+      "C. 伺服器成本",
+      "D. 測試數據量"
+    ],
+    "answer": "A",
+    "category": "醫療AI",
+    "importance": "high",
+    "explanation": "可解釋性是醫療決策AI合法合規的關鍵要求。",
+    "tags": ["醫療AI", "可解釋性"]
+  },
+  {
+    "id": 3086,
+    "question": "AI技術在智慧城市交通管理中遇到資料孤島，最佳解法為？",
+    "options": [
+      "A. 推動跨單位資料共享標準",
+      "B. 擴大路網建設",
+      "C. 提高收費標準",
+      "D. 增設監視器"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "medium",
+    "explanation": "資料共享標準能打破資料孤島提升整體效益。",
+    "tags": ["智慧城市", "資料共享"]
+  },
+  {
+    "id": 3087,
+    "question": "AI專案需求頻繁變動導致交付失敗，最適合的敏捷應對策略？",
+    "options": [
+      "A. 建立迭代回饋機制",
+      "B. 固定需求不允許更動",
+      "C. 增加人力資源",
+      "D. 取消專案週會"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "敏捷專案管理強調迭代與快速回饋。",
+    "tags": ["敏捷", "需求管理"]
+  },
+  {
+    "id": 3088,
+    "question": "AI導入ESG永續發展專案時，何者是評估重點？",
+    "options": [
+      "A. 資料取得合法性與公平性",
+      "B. 只看預算金額",
+      "C. 減少開發團隊人數",
+      "D. 縮短測試時間"
+    ],
+    "answer": "A",
+    "category": "ESG應用",
+    "importance": "medium",
+    "explanation": "合法且公平的資料取得是ESG應用評估重點。",
+    "tags": ["ESG", "資料合法性"]
+  },
+  {
+    "id": 3089,
+    "question": "AI在智慧製造產線上實施視覺檢測，最大挑戰為？",
+    "options": [
+      "A. 標註資料數量與品質",
+      "B. 增加人力監控",
+      "C. 強化冷氣設備",
+      "D. 減少感測器數量"
+    ],
+    "answer": "A",
+    "category": "產業應用",
+    "importance": "high",
+    "explanation": "高品質標註資料是視覺檢測AI的核心挑戰。",
+    "tags": ["智慧製造", "視覺檢測"]
+  },
+  {
+    "id": 3090,
+    "question": "大規模生成式AI模型落地企業時，最大資安隱憂？",
+    "options": [
+      "A. 輸入資訊外洩與Prompt Injection攻擊",
+      "B. 伺服器溫度過高",
+      "C. 機房照明不足",
+      "D. 語音辨識失效"
+    ],
+    "answer": "A",
+    "category": "資安管理",
+    "importance": "high",
+    "explanation": "Prompt Injection與敏感資訊外洩是最大資安風險。",
+    "tags": ["生成式AI", "資安"]
+  },
+  {
+    "id": 3091,
+    "question": "AI系統自動決策帶來法律爭議時，最佳風險因應方式？",
+    "options": [
+      "A. 建立責任歸屬與決策紀錄機制",
+      "B. 增加決策頻率",
+      "C. 減少人工審查",
+      "D. 拒絕資料存檔"
+    ],
+    "answer": "A",
+    "category": "法規合規",
+    "importance": "high",
+    "explanation": "責任歸屬與決策紀錄有助法律風險追溯與管理。",
+    "tags": ["法律爭議", "決策紀錄"]
+  },
+  {
+    "id": 3092,
+    "question": "AI在數位醫療影像分析遇到跨院資料標準不一時，最適合的技術？",
+    "options": [
+      "A. 聯邦學習",
+      "B. 傳統資料倉儲",
+      "C. 增加人工比對",
+      "D. 模型壓縮"
+    ],
+    "answer": "A",
+    "category": "醫療AI",
+    "importance": "medium",
+    "explanation": "聯邦學習能在保障隱私下整合多院資料訓練。",
+    "tags": ["聯邦學習", "資料整合"]
+  },
+  {
+    "id": 3093,
+    "question": "導入AI於金融業合規稽核時，核心應用挑戰？",
+    "options": [
+      "A. 解釋模型預測與自動化合規判斷",
+      "B. 強化業務推廣",
+      "C. 擴增ATM數量",
+      "D. 縮減客戶服務窗口"
+    ],
+    "answer": "A",
+    "category": "金融AI",
+    "importance": "high",
+    "explanation": "可解釋自動化合規是金融業AI稽核難點。",
+    "tags": ["金融AI", "合規稽核"]
+  },
+  {
+    "id": 3094,
+    "question": "AI進行異常偵測時，最適合用於處理未標記數據的方法？",
+    "options": [
+      "A. 非監督式學習如聚類法",
+      "B. 強化學習",
+      "C. 邏輯回歸",
+      "D. 支援向量機"
+    ],
+    "answer": "A",
+    "category": "AI建模",
+    "importance": "medium",
+    "explanation": "未標記數據的異常偵測適合用聚類等非監督學習。",
+    "tags": ["異常偵測", "非監督學習"]
+  },
+  {
+    "id": 3095,
+    "question": "多模態AI模型(Multimodal)可同時處理哪些資料？",
+    "options": [
+      "A. 圖像與文本、語音等多種型態",
+      "B. 只處理表格數據",
+      "C. 僅限文字資訊",
+      "D. 只能處理影片"
+    ],
+    "answer": "A",
+    "category": "AI技術",
+    "importance": "high",
+    "explanation": "多模態模型能整合圖像、語音、文本等資訊。",
+    "tags": ["多模態", "跨媒體"]
+  },
+  {
+    "id": 3096,
+    "question": "企業AI導入決策常忽略什麼重要流程？",
+    "options": [
+      "A. 變更管理與持續教育",
+      "B. 資料表備份",
+      "C. 增加軟體授權數",
+      "D. 完全依賴外部廠商"
+    ],
+    "answer": "A",
+    "category": "應用實務",
+    "importance": "medium",
+    "explanation": "變更管理與持續教育關係AI落地成功率。",
+    "tags": ["變更管理", "持續教育"]
+  },
+  {
+    "id": 3097,
+    "question": "AI模型訓練時出現資料不一致，最適合的對策？",
+    "options": [
+      "A. 進行資料清理與標準化",
+      "B. 直接加大模型複雜度",
+      "C. 精簡訓練回合",
+      "D. 隨機分配資料"
+    ],
+    "answer": "A",
+    "category": "數據處理",
+    "importance": "high",
+    "explanation": "資料標準化能有效改善模型訓練品質。",
+    "tags": ["資料一致性", "標準化"]
+  },
+  {
+    "id": 3098,
+    "question": "針對AI生成內容的版權問題，企業最合適的因應方式？",
+    "options": [
+      "A. 研擬AI內容管理政策",
+      "B. 關閉生成式AI服務",
+      "C. 減少內容發布",
+      "D. 採用外部內容平台"
+    ],
+    "answer": "A",
+    "category": "AI倫理",
+    "importance": "high",
+    "explanation": "明確AI內容管理政策有助減少版權爭議。",
+    "tags": ["生成式AI", "版權管理"]
+  },
+  {
+    "id": 3099,
+    "question": "AI專案要避免技術債，最關鍵的管理措施為？",
+    "options": [
+      "A. 持續重構與技術文檔更新",
+      "B. 一次到位部署",
+      "C. 大量引進新技術",
+      "D. 只用過往經驗"
+    ],
+    "answer": "A",
+    "category": "專案管理",
+    "importance": "high",
+    "explanation": "持續重構與完善文檔能減少技術債風險。",
+    "tags": ["技術債", "管理措施"]
+  },
+  {
+    "id": 3100,
+    "question": "企業AI應用專案進行外部審查時，最重要的準備內容？",
+    "options": [
+      "A. 完整紀錄數據流程與模型說明",
+      "B. 強調團隊氛圍",
+      "C. 提高廣告預算",
+      "D. 增加視覺設計"
+    ],
+    "answer": "A",
+    "category": "應用實務",
+    "importance": "high",
+    "explanation": "完整流程紀錄與模型說明有助外部審查順利。",
+    "tags": ["外部審查", "模型說明"]
   }
+]
+
 ]
