@@ -193,6 +193,7 @@ function checkAnswer(selected) {
   // 顯示回饋與解析＋tags
   if (selected === correct) {
     feedback.innerHTML = `✅ 答對了！<br>【解析】${q.explanation || '本題無解析'}`;
+    correctCount++;
   } else {
     feedback.innerHTML = `❌ 答錯了，正確答案是 ${correct}<br>【解析】${q.explanation || '本題無解析'}`;
     wrongBook.push(q);
