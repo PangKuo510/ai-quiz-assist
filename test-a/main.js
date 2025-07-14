@@ -7,6 +7,15 @@ let totalToAnswer = 0;
 
 const app = document.getElementById("root");
 
+// 星星（難度）圖案，importance：1~5
+function getStars(n) {
+  n = Math.max(1, Math.min(5, Number(n) || 1));
+  return '<span class="star-group">' +
+    "★★★★★".slice(0, n).split("").map(s=>`<span class="star-on">★</span>`).join("") +
+    "★★★★★".slice(n, 5).split("").map(s=>`<span class="star-off">★</span>`).join("") +
+    '</span>';
+}
+
 // 進度條四色分級
 function getProgressColor(percent) {
   if (percent <= 25) return "#ef4444"; // 紅
@@ -24,7 +33,7 @@ function getGrade(score) {
 }
 
 // 載入題庫
-fetch("ai_question_bank_v1_fixed.json")
+fetch("ai_question_bank_v3.json")
   .then(res => {
     if (!res.ok) throw new Error("題庫載入失敗");
     return res.json();
@@ -119,10 +128,16 @@ function renderQuestion() {
   const progressPercent = Math.round((currentQuestionIndex / totalToAnswer) * 100);
   const progressColor = getProgressColor(progressPercent);
 
+  // 標籤與星星
+  let tagHTML = q.tags && q.tags.length 
+    ? q.tags.map(tag => `<span class="tag-label">${tag}</span>`).join("") 
+    : "";
+  let starsHTML = getStars(q.importance);
+
   let optionsHTML = q.options.map((opt, i) =>
     `<li>
       <button class="option-btn" id="opt${i}" onclick="checkAnswer('${String.fromCharCode(65+i)}')"
-        >${String.fromCharCode(65+i)}. ${opt}</button>
+        >${String.fromCharCode(65+i)}. ${opt.replace(/^[A-D]\.\s*/,"")}</button>
     </li>`
   ).join("");
 
@@ -132,7 +147,11 @@ function renderQuestion() {
         ${progressPercent}%
       </div>
     </div>
-    <div>📘 分類：${q.category}　🔢 題號：${currentQuestionIndex + 1} / ${totalToAnswer}（題庫編號 Q${q.id}）</div><br/>
+    <div>
+      📘 分類：${q.category} ${starsHTML}
+      <div style="margin:2px 0 5px 0">${tagHTML}</div>
+      🔢 題號：${currentQuestionIndex + 1} / ${totalToAnswer}（題庫編號 Q${q.id}）
+    </div><br/>
     <p><strong>${q.question}</strong></p>
     <ul>${optionsHTML}</ul>
     <div id="feedback"></div><br/>
@@ -148,6 +167,12 @@ function checkAnswer(selected) {
   const q = filteredQuestions[currentQuestionIndex];
   const correct = q.answer;
   const feedback = document.getElementById("feedback");
+
+  // 標籤與星星
+  let tagHTML = q.tags && q.tags.length 
+    ? q.tags.map(tag => `<span class="tag-label">${tag}</span>`).join("") 
+    : "";
+  let starsHTML = getStars(q.importance);
 
   // 鎖定所有選項
   q.options.forEach((_, i) => {
@@ -165,17 +190,17 @@ function checkAnswer(selected) {
     }
   });
 
-  // 顯示回饋與解析
+  // 顯示回饋與解析＋tags
   if (selected === correct) {
     feedback.innerHTML = `✅ 答對了！<br>【解析】${q.explanation || '本題無解析'}`;
-    correctCount++;
   } else {
     feedback.innerHTML = `❌ 答錯了，正確答案是 ${correct}<br>【解析】${q.explanation || '本題無解析'}`;
     wrongBook.push(q);
   }
+  feedback.innerHTML += `<div style="margin-top:8px;">${tagHTML}</div>`;
 
   // 顯示「下一題」按鈕
-  feedback.innerHTML += `<br><br><button onclick="nextQuestion()">下一題</button>`;
+  feedback.innerHTML += `<br><button onclick="nextQuestion()">下一題</button>`;
 }
 
 function nextQuestion() {
@@ -220,6 +245,11 @@ function startSequentialQuiz() {
 
 function renderSequentialQuestion() {
   const q = questions[sequentialIndex];
+  let tagHTML = q.tags && q.tags.length 
+    ? q.tags.map(tag => `<span class="tag-label">${tag}</span>`).join("") 
+    : "";
+  let starsHTML = getStars(q.importance);
+
   let optionsHTML = q.options.map((opt, i) => {
     const optionChar = String.fromCharCode(65+i);
     let isSelected = sequentialUserAnswers[sequentialIndex] === optionChar;
@@ -228,7 +258,7 @@ function renderSequentialQuestion() {
         onclick="selectSequentialAnswer('${optionChar}')"
         ${isSelected && optionChar === q.answer ? 'style="font-weight:bold;background:#f0fdf4;border:2px solid #10b981;" disabled' : ''}
         ${isSelected && optionChar !== q.answer ? 'style="font-weight:bold;background:#fee2e2;border:2px solid #ef4444;"' : ''}>
-        ${optionChar}. ${opt}
+        ${optionChar}. ${opt.replace(/^[A-D]\.\s*/,"")}
       </button>
     </li>`;
   }).join("");
@@ -239,7 +269,11 @@ function renderSequentialQuestion() {
         ${sequentialIndex+1} / ${questions.length}
       </div>
     </div>
-    <div>📘 分類：${q.category}　🔢 題庫編號：Q${q.id}（第${sequentialIndex+1}題 / 共${questions.length}題）</div><br/>
+    <div>
+      📘 分類：${q.category} ${starsHTML}
+      <div style="margin:2px 0 5px 0">${tagHTML}</div>
+      🔢 題庫編號：Q${q.id}（第${sequentialIndex+1}題 / 共${questions.length}題）
+    </div><br/>
     <p><strong>${q.question}</strong></p>
     <ul>${optionsHTML}</ul>
     <div id="seq_feedback"></div><br/>
@@ -252,22 +286,24 @@ function renderSequentialQuestion() {
     </div>
   `;
 
-  // 有選過就立即顯示解析
   if(sequentialUserAnswers[sequentialIndex]) showSequentialFeedback(sequentialUserAnswers[sequentialIndex]);
 }
 
 function selectSequentialAnswer(selected) {
   const q = questions[sequentialIndex];
-  sequentialUserAnswers[sequentialIndex] = selected; // 記錄
+  sequentialUserAnswers[sequentialIndex] = selected;
   showSequentialFeedback(selected);
 }
 
 function showSequentialFeedback(selected) {
   const q = questions[sequentialIndex];
   const feedback = document.getElementById("seq_feedback");
+  let tagHTML = q.tags && q.tags.length 
+    ? q.tags.map(tag => `<span class="tag-label">${tag}</span>`).join("") 
+    : "";
+
   if(selected === q.answer){
     feedback.innerHTML = `✅ 答對了！<br>【解析】${q.explanation || '本題無解析'}`;
-    // 鎖定所有選項
     q.options.forEach((_, i) => {
       let btn = document.getElementById("seq_opt"+i);
       btn.disabled = true;
@@ -279,12 +315,12 @@ function showSequentialFeedback(selected) {
     });
   }else{
     feedback.innerHTML = `❌ 答錯了，正確答案是 ${q.answer}<br>【解析】${q.explanation || '本題無解析'}<br>（可以再嘗試選其他答案）`;
-    // 只 disable 當前選錯的按鈕
     q.options.forEach((_, i) => {
       let btn = document.getElementById("seq_opt"+i);
       if (String.fromCharCode(65 + i) === selected) btn.disabled = true;
     });
   }
+  feedback.innerHTML += `<div style="margin-top:8px;">${tagHTML}</div>`;
 }
 
 function goSequentialPrev() {
@@ -334,8 +370,10 @@ function renderQuestionList() {
       ${questions.map(q => `
         <li>
           <div class="category-label">${q.category}</div>
+          <span>${getStars(q.importance)}</span>
+          <div style="margin-top:2px;">${q.tags && q.tags.length ? q.tags.map(tag => `<span class="tag-label">${tag}</span>`).join("") : ""}</div>
           <strong>Q${q.id}：${q.question}</strong><br/>
-          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt} </span>`).join(" / ")}<br/>
+          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt.replace(/^[A-D]\.\s*/,"")} </span>`).join(" / ")}<br/>
           ✅ 正解：${q.answer}<br/>
           🔎 解析：${q.explanation || '本題無解析'}<br/><br/>
         </li>
@@ -361,8 +399,10 @@ function renderWrongBook() {
       ${wrongBook.map(q => `
         <li>
           <div class="category-label">${q.category}</div>
+          <span>${getStars(q.importance)}</span>
+          <div style="margin-top:2px;">${q.tags && q.tags.length ? q.tags.map(tag => `<span class="tag-label">${tag}</span>`).join("") : ""}</div>
           <strong>Q${q.id}：${q.question}</strong><br/>
-          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt} </span>`).join(" / ")}<br/>
+          ${q.options.map((opt, i) => `<span>${String.fromCharCode(65+i)}. ${opt.replace(/^[A-D]\.\s*/,"")} </span>`).join(" / ")}<br/>
           ✅ 正解：${q.answer}<br/>
           🔎 解析：${q.explanation || '本題無解析'}<br/><br/>
         </li>
