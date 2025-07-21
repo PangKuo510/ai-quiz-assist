@@ -7,6 +7,9 @@ let totalToAnswer = 0;
 
 const app = document.getElementById("root");
 
+let noticeData = null;
+
+
 // 星星（難度）圖案，importance：1~5
 function getStars(n) {
   n = Math.max(1, Math.min(5, Number(n) || 1));
