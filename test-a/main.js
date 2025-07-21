@@ -35,6 +35,33 @@ function getGrade(score) {
   return {level:"C", msg:"建議加強基礎，持續努力會有進步！"};
 }
 
+// 載入公告
+fetch("notice.json")
+  .then(res => res.json())
+  .then(data => {
+    noticeData = data;
+    // 題庫載入必須等公告載完，確保渲染時可用 noticeData
+    return fetch("ai_question_bank_v3.json");
+  })
+  .then(res => {
+    if (!res.ok) throw new Error("題庫載入失敗");
+    return res.json();
+  })
+  .then(data => {
+    // ...你原本的題庫格式自動mapping區段...
+    questions = data.map(q => {
+      if (typeof q.importance === "string") {
+        const mapping = { "low": 1, "medium": 3, "high": 5 };
+        q.importance = mapping[q.importance.toLowerCase()] || 1;
+      }
+      return q;
+    });
+    renderStartScreen();
+  })
+  .catch(err => {
+    app.innerHTML = "<p style='color:red;'>🚫 資料載入失敗，請確認 notice.json 及 題庫 JSON 皆存在且格式正確。</p>";
+  });
+
 // 載入題庫
 fetch("ai_question_bank_v3.json")
   .then(res => {
