@@ -119,7 +119,8 @@ function renderStartScreen() {
   
   app.innerHTML = `
     <h1 style='color:#2563eb'>AI應用規劃師教練(測試版)</h1>
-    <p>為 AI應用規劃師考照打造的每日練習工具,本頁為新功能、新題庫測試版</p>
+    <p>歡迎來到為 AI應用規劃師考照打造的每日練習工具</p>
+    <p>請注意!本頁為新功能、新題庫測試版!</p>
       <p>
     正式版網頁為
     <a href="https://pangkuo510.github.io/ai-quiz-coach/" target="_blank" style="color:#2563eb;text-decoration:underline;">
