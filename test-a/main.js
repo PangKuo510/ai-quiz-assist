@@ -102,7 +102,16 @@ function renderStartScreen() {
       <div class="notice-board">
         <strong>${noticeData.title || "📢 公告"}</strong>
         <ul>
-          ${noticeData.list.map(item => `<li>${item}</li>`).join("")}
+          ${noticeData.list.map(item => {
+            if (typeof item === "string" && item.startsWith("http")) {
+              let linkText = item;
+              if (item.includes("spreadsheets")) linkText = "👉 完整更新日誌";
+              if (item.includes("forms")) linkText = "🐞 問題回報表單";
+              return `<li><a href="${item}" target="_blank" style="color:#2563eb;text-decoration:underline;">${linkText}</a></li>`;
+            } else {
+              return `<li>${item}</li>`;
+            }
+          }).join("")}
         </ul>
       </div>
     `;
