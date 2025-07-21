@@ -35,7 +35,7 @@ function getGrade(score) {
   return {level:"C", msg:"建議加強基礎，持續努力會有進步！"};
 }
 
-// 載入公告
+// 載入公告與體庫
 fetch("notice.json")
   .then(res => res.json())
   .then(data => {
@@ -60,26 +60,6 @@ fetch("notice.json")
   })
   .catch(err => {
     app.innerHTML = "<p style='color:red;'>🚫 資料載入失敗，請確認 notice.json 及 題庫 JSON 皆存在且格式正確。</p>";
-  });
-
-// 載入題庫
-fetch("ai_question_bank_v3.json")
-  .then(res => {
-    if (!res.ok) throw new Error("題庫載入失敗");
-    return res.json();
-  })
-  .then(data => {
-    questions = data.map(q => {
-      if (typeof q.importance === "string") {
-        const mapping = { "low": 1, "below medium": 2, "medium": 3, "above medium": 4, "high": 5 };
-        q.importance = mapping[q.importance.toLowerCase()] || 1;
-      }
-      return q;
-    });
-    renderStartScreen();
-  })
-  .catch(err => {
-    app.innerHTML = "<p style='color:red;'>🚫 題庫載入失敗，請確認 JSON 格式正確且與 main.js 放在同資料夾。</p>";
   });
 
 // ---------- 一般（隨機）練題 ----------
