@@ -94,6 +94,20 @@ function renderStartScreen() {
   const lastDate = localStorage.getItem("ai_quiz_last_date") || "未曾練習";
   const hasProgress = localStorage.getItem("ai_quiz_saved_progress");
   const categories = [...new Set(questions.map(q => q.category))];
+  
+    // ⬇️ 新增這一段，根據 noticeData 組合布告欄
+  let noticeHTML = "";
+  if (noticeData && noticeData.list && noticeData.list.length) {
+    noticeHTML = `
+      <div class="notice-board">
+        <strong>${noticeData.title || "📢 公告"}</strong>
+        <ul>
+          ${noticeData.list.map(item => `<li>${item}</li>`).join("")}
+        </ul>
+      </div>
+    `;
+  }
+  
   app.innerHTML = `
     ${noticeHTML}
     <h1 style='color:#2563eb'>AI應用規劃師教練</h1>
