@@ -109,8 +109,8 @@ function renderStartScreen() {
   }
   
   app.innerHTML = `
-    ${noticeHTML}
     <h1 style='color:#2563eb'>AI應用規劃師教練</h1>
+    ${noticeHTML}
     <p>為 AI應用規劃師考照打造的每日練習工具</p>
     <p>📊 最近分數：${lastScore}%，最後練習：${lastDate}</p>
     ${hasProgress ? `<button onclick="loadQuizProgress()">▶️ 繼續上次答題</button><br/><br/>` : ""}
