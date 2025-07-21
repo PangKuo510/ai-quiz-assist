@@ -224,6 +224,8 @@ label {
   margin-bottom: 18px;
   font-size: 1.04em;
   box-shadow: 0 2px 8px #facc1555;
+  max-height: 120px;
+  overflow-y: auto;
 }
 .notice-board ul {
   margin: 4px 0 0 16px;
