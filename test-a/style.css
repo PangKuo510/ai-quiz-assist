@@ -8,7 +8,7 @@ body {
 
 #root {
   width: 100%;
-  max-width: 800px;     /* 桌機可改 700~900px，看少爺喜好 */
+  max-width: 900px;     /* 桌機可改 700~900px，看少爺喜好 */
   margin: 24px auto 0 auto;
   background: #fff;
   border-radius: 18px;
