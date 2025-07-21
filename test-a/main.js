@@ -120,7 +120,12 @@ function renderStartScreen() {
   app.innerHTML = `
     <h1 style='color:#2563eb'>AI應用規劃師教練(測試版)</h1>
     <p>為 AI應用規劃師考照打造的每日練習工具,本頁為新功能、新題庫測試版</p>
-    <p>正式版網頁為https://pangkuo510.github.io/ai-quiz-coach/</p>
+      <p>
+    正式版網頁為
+    <a href="https://pangkuo510.github.io/ai-quiz-coach/" target="_blank" style="color:#2563eb;text-decoration:underline;">
+      https://pangkuo510.github.io/ai-quiz-coach/
+    </a>
+  </p>
     ${noticeHTML}
     <p>📊 最近分數：${lastScore}%，最後練習：${lastDate}</p>
     ${hasProgress ? `<button onclick="loadQuizProgress()">▶️ 繼續上次答題</button><br/><br/>` : ""}
