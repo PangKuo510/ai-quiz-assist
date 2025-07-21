@@ -1,8 +1,10 @@
 {
   "title": "📢 最新公告",
   "list": [
-    "2025-07-22 新增 AI 出題 100 題（Q3000~Q3100）",
-    "修正星星顯示與分數統計 bug",
-    "如有建議或錯誤請利用下面表單網址進行「BUG回報」"
+    "2025-07-14 新增 AI 出題 100 題（Q3001~Q3100）與 外部來源考題 97題（Q4001~4097）",
+    "更新日誌",
+    "https://docs.google.com/spreadsheets/d/13TQPn517SAJPBJyWDbMo1N_mfkTy4tXpMFxMc5ssNqA/edit?usp=sharing",
+    "如有建議或錯誤請利用下面表單網址進行回報",
+    "https://docs.google.com/forms/d/e/1FAIpQLSdmk1DMZlZ0MnuyL1JquzOB1W0q4DR3kHsULU7fJe_PfK7NVA/viewform?usp=sharing&ouid=106488720700172729041"
   ]
 }
