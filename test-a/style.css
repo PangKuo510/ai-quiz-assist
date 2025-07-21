@@ -195,15 +195,6 @@ label {
   display: inline-block;
 }
 
-@media (max-width: 600px) {
-  #root {
-    min-height: 420px;
-    padding: 16px 2vw 24px 2vw;
-  }
-  .btn-panel, .btn-row, .home-block { max-width: 100%; }
-  .main-btn, .btn-row-3 button { min-height: 44px; font-size: 1.07em; }
-}
-
 ::-webkit-scrollbar { width: 7px; background: #eee; }
 ::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 4px; }
 
