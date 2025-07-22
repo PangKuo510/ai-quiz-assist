@@ -529,7 +529,7 @@
       "D. 只適用於物聯網應用"
     ],
     "answer": "A",
-    "category": "L115機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "CNN主要用於影像處理和物件偵測，因其能有效提取圖像特徵，適合處理高維數據。其他選項不符合CNN的主要應用領域。",
     "tags": [
@@ -1069,7 +1069,7 @@
       "D. 只依賴公開數據，不需企業內部數據訓練"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI前，進行規劃與風險評估至關重要，能確保技術有效運用並降低潛在風險，從而實現最佳效益。",
     "tags": [
@@ -1789,7 +1789,7 @@
       "D. 無監督學習AI"
     ],
     "answer": "B",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "normal",
     "explanation": "ChatGPT是一種生成式AI，專注於創建文本內容，能夠根據輸入生成自然語言回應，與決策或專家系統不同。",
     "tags": [
@@ -1969,7 +1969,7 @@
       "D. 生成式AI取代所有鑑別式AI應用"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "結合鑑別式AI與生成式AI可提升內容創造的質量，前者負責評估生成內容的準確性與適用性，確保最終產出符合需求。",
     "tags": [
@@ -2569,7 +2569,7 @@
       "D. 兩者沒有區別"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於創造新內容，如文本或圖像，而鑑別式AI則專注於分析和分類已有數據，兩者在功能上有明顯區別。",
     "tags": [
@@ -2629,7 +2629,7 @@
       "D. AI內容永遠正確"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "企業導入生成式AI前，需評估生成內容的真實性與可信度，以避免錯誤信息影響品牌形象和決策。",
     "tags": [
@@ -2709,7 +2709,7 @@
       "D. 讓企業自由發展AI，不受監管"
     ],
     "answer": "A",
-    "category": "L114 AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "AI監管旨在確保技術的透明度與公平性，以防止偏見和不當使用，促進社會信任與安全。",
     "tags": [
@@ -2809,7 +2809,7 @@
       "D. AI只能使用公開數據"
     ],
     "answer": "A",
-    "category": "L1資料處理與分析概念",
+    "category": "L112 資料處理與分析概念",
     "importance": "normal",
     "explanation": "數據匿名化是通過去除個人身份資訊，確保數據無法追溯到特定個人，以保護隱私和安全。",
     "tags": [
@@ -2889,7 +2889,7 @@
       "D. 生成式AI不能應用於NLP"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI可創造內容，而鑑別式AI則能評估其真實性，兩者結合可提升內容的質量與可靠性，實現更有效的應用。",
     "tags": [
@@ -2989,7 +2989,7 @@
       "D. 生成式AI只能在監督學習環境中運行"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於學習數據的分佈以創造新內容，而鑑別式AI則專注於從數據中進行分類和預測，兩者在學習目標上有明顯區別。",
     "tags": [
@@ -3529,7 +3529,7 @@
       "D. 幫助AI訓練數據清理"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於從已知數據中學習，適合用於分類和預測任務，能有效區分不同類別的數據。",
     "tags": [
@@ -3589,7 +3589,7 @@
       "D. AI生成內容不影響企業形象"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "準確性與真實性直接影響生成式AI的可靠性，若內容不準確，將損害企業信譽及決策品質，因此是導入時最重要的風險評估因素。",
     "tags": [
@@ -4229,7 +4229,7 @@
       "D. 傳統AI更擅長創意設計"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI的特點在於能夠創造新內容，與傳統AI的分類和預測功能形成鮮明對比，顯示出其在創造性應用上的優勢。",
     "tags": [
@@ -4889,7 +4889,7 @@
       "D. 生成音樂與藝術作品"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於從已有數據中學習特徵，主要應用於圖像分類和詐欺檢測等任務，旨在區分不同類別或識別異常情況。",
     "tags": [
@@ -5249,7 +5249,7 @@
       "D. SVM（支持向量機）"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "卷積神經網絡（CNN）專為處理圖像數據設計，能有效提取特徵，適合用於影像識別任務。其他選項不如CNN在此領域表現優越。",
     "tags": [
@@ -6069,7 +6069,7 @@
       "D. 生成式AI不能應用於NLP"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於創造新內容，適合生成文本或圖像；鑑別式AI則專注於分類和預測，兩者功能明確且可互補。",
     "tags": [
@@ -6109,7 +6109,7 @@
       "D. AI無需風險管理"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI時，確保生成內容的真實性與可信度是關鍵，因為不準確或不可信的內容可能損害企業形象和信任度。",
     "tags": [
@@ -6589,7 +6589,7 @@
       "D. 決策樹（DecisionTree）"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "強化學習能夠在動態環境中不斷調整策略，適合高頻交易的快速決策需求，從而提高交易效率和收益。",
     "tags": [
@@ -6709,7 +6709,7 @@
       "D. 支持向量機（SVM）"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "YOLO架構具備高效的即時物體偵測能力，能快速處理影像並準確識別多個物體，適合自動駕駛系統的需求。",
     "tags": [
@@ -7089,7 +7089,7 @@
       "D. AI訓練完成後，其效能不會改變"
     ],
     "answer": "A",
-    "category": "L108 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "定期監測和再訓練能確保AI模型適應環境變化，維持效能與可靠性，避免因數據漂移導致的性能下降。",
     "tags": [
@@ -7349,7 +7349,7 @@
       "D. AI的隱私保護與數據安全"
     ],
     "answer": "B",
-    "category": "L118 AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "讓AI自行學習而無需監管會增加風險，因為缺乏監控可能導致不當行為或結果，這與風險管理的核心目標相悖。",
     "tags": [
@@ -7829,7 +7829,7 @@
       "D. 監督式AI（SupervisedAI）"
     ],
     "answer": "B",
-    "category": "L113通用AI（AGI,GeneralAI）",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "通用AI具備自我學習和通用推理能力，能在多種任務中表現出人類水平的智能，但目前尚未完全實現。",
     "tags": [
@@ -7949,7 +7949,7 @@
       "D. K-Means聚類（K-MeansClustering）"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "卷積神經網絡（CNN）擅長處理圖像數據，能有效提取特徵，適合用於圖片風格轉換，實現風格與內容的分離與重組。",
     "tags": [
@@ -8309,7 +8309,7 @@
       "D. YOLO（YouOnlyLookOnce）"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "U-Net專為影像分割設計，具備編碼器-解碼器架構，能有效捕捉圖像特徵並進行精確分割，適合處理醫學影像等應用。",
     "tags": [
@@ -9129,7 +9129,7 @@
       "D. 支持向量機（SVM）"
     ],
     "answer": "A",
-    "category": "L115機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "LSTM專為處理序列數據設計，能有效捕捉時間依賴性，適合時間序列預測。其他模型在此任務上表現不如LSTM。",
     "tags": [
@@ -9389,7 +9389,7 @@
       "D. 隨機森林（RandomForest）"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "YOLO是一種專為物件偵測設計的神經網絡，能夠快速且準確地識別多個物體，適合即時應用。其他選項不專注於此任務。",
     "tags": [
@@ -9409,7 +9409,7 @@
       "D. 隨機森林（RandomForest）"
     ],
     "answer": "A",
-    "category": "L115機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "Transformer架構具備優秀的序列處理能力，能有效捕捉上下文關係，適合即時翻譯任務，提升翻譯準確性和流暢度。",
     "tags": [
@@ -9669,7 +9669,7 @@
       "D. PCA（主成分分析）"
     ],
     "answer": "A",
-    "category": "L115機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "深度學習專門設計用於處理非結構化數據，能有效提取特徵並進行複雜模式識別，適合影像和語音等應用。",
     "tags": [
@@ -9829,7 +9829,7 @@
       "D. 強化學習（ReinforcementLearning）"
     ],
     "answer": "A",
-    "category": "L116機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "異常偵測專注於識別不尋常的行為模式，能有效發現財務欺詐行為，因而最適合用於該應用。其他選項不具針對性或不適合此目的。",
     "tags": [
@@ -10049,7 +10049,7 @@
       "D. 無"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "要求AI模型可解釋是為了增進使用者和監管機構對其決策過程的理解，從而確保系統的透明度和信任度。",
     "tags": [
@@ -10629,7 +10629,7 @@
       "D. 降維分析"
     ],
     "answer": "B",
-    "category": "L115機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "medium",
     "explanation": "RNN模型專門設計用於處理時序數據，能夠捕捉序列中的時間依賴性，適合於語音、文本等連續數據的分析。",
     "tags": [
@@ -10889,7 +10889,7 @@
       "D. 生成式AI不能應用於NLP"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於創造新內容，如文本或圖像，而鑑別式AI則專注於從數據中進行分類和預測，兩者功能明確且互補。",
     "tags": [
@@ -12489,7 +12489,7 @@
       "D. 僅依賴外部技術"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "生成式AI導入需謹慎規劃，試驗計畫與風險評估能確保技術有效性與安全性，避免潛在問題，促進成功實施。",
     "tags": [
@@ -12509,7 +12509,7 @@
       "D. 僅依賴外部技術團隊"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "生成式AI導入需先進行需求分析，選擇合適技術並制定試驗計畫，以確保符合業務需求並有效實施。",
     "tags": [
@@ -12529,7 +12529,7 @@
       "D. 市場競爭對手的技術水平"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI時，業務需求與技術可行性是首要考量，確保技術能有效解決實際問題，提升企業價值。",
     "tags": [
@@ -12549,7 +12549,7 @@
       "D. 僅考慮市場競爭"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI時，需評估技術的可行性及其對業務的實際價值，以確保技術與業務需求的有效結合。",
     "tags": [
@@ -12569,7 +12569,7 @@
       "D. 財務預算"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI時，需評估技術的可行性及其對業務的價值，以確保投資的有效性和實用性。",
     "tags": [
@@ -12589,7 +12589,7 @@
       "D. 財務預算"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI時，首要考量業務需求與技術可行性，以確保解決方案符合實際需求並具備實施的基礎。",
     "tags": [
@@ -12609,7 +12609,7 @@
       "D. 僅在發生問題後才進行管理"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "定期評估AI輸出可及早發現問題，並制定相應的應對措施，從而有效降低風險，確保生成式AI的安全與可靠性。",
     "tags": [
@@ -12629,7 +12629,7 @@
       "D. 僅在問題發生後處理"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "制定風險應對計畫並定期審查，有助於企業在導入生成式AI時有效識別和管理潛在風險，確保安全與合規。",
     "tags": [
@@ -12709,7 +12709,7 @@
       "D. 鑑別式AI無法與生成式AI結合"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於數據分類，而生成式AI則能創造新數據，兩者在功能上有明顯區別。",
     "tags": [
@@ -12729,7 +12729,7 @@
       "D. 兩者無法結合"
     ],
     "answer": "A",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI可評估生成式AI的輸出真實性，確保生成內容的可靠性與準確性，故選項A為正確答案。",
     "tags": [
@@ -14489,7 +14489,7 @@
       "D. 可解釋性不足"
     ],
     "answer": "C",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成真實外觀的虛假影像與語音會導致假訊息和Deepfake現象，這對社會輿論造成重大威脅，影響信息的真實性與可信度。",
     "tags": [
@@ -14869,7 +14869,7 @@
       "D. 它只應用於遊戲與娛樂，因此不需擔心風險"
     ],
     "answer": "C",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "超級人工智慧的潛在風險主要在於其可能威脅人類生存，因此需建立法律與倫理規範以進行有效約束，這是討論的核心。",
     "tags": [
@@ -15569,7 +15569,7 @@
       "D. 鑑別式AI是非監督學習，生成式AI是監督學習"
     ],
     "answer": "C",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於分類和預測，無法創造新內容；而生成式AI則能生成新資料，兩者在功能上有明顯區別。",
     "tags": [
@@ -19649,7 +19649,7 @@
       "D. 立即嘗試多模態輸入"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "明確需求定義並拆解任務顆粒度，有助於清晰理解目標，提升生成式AI的產出效率，為後續步驟奠定堅實基礎。",
     "tags": [
@@ -20449,7 +20449,7 @@
       "D. 計算公司伺服器的總數量"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "生成式AI導入的首要基礎在於明確業務需求，這有助於識別AI能解決的具體問題，確保技術應用的有效性與針對性。",
     "tags": [
@@ -20521,15 +20521,15 @@
   },
   {
     "id": 1027,
-    "question": "評估生成式AI工具是否符合GDPR、HIPA等法規，屬於哪個核心評估面向？",
+    "question": "評估生成式AI工具是否符合GDPR、HIPA",
     "options": [
-      "A. 業務需求評估",
+      "A. 等法規，屬於哪個核心評估面向？A.業務需求評估",
       "B. 技術可行性評估",
       "C. 成本效益分析",
       "D. 倫理與合規性評估"
     ],
     "answer": "D",
-    "category": "L106生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "生成式AI工具需遵循GDPR和HIPAA等法規，故核心評估面向為倫理與合規性，確保技術使用符合法律要求，保障個人隱私與數據安全。",
     "tags": [
@@ -20569,7 +20569,7 @@
       "D. 試點與迭代"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "normal",
     "explanation": "導入生成式AI的首要步驟是明確需求與問題，確保與利益相關者的合作，以便後續流程能夠針對實際需求進行設計與實施。",
     "tags": [
@@ -20669,7 +20669,7 @@
       "D. 為下一輪融資準備材料"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "設定並監控KPI的主要目的是量化生成式AI的導入效果，確保決策基於實證數據，從而提升效率和降低成本。",
     "tags": [
@@ -20809,7 +20809,7 @@
       "D. 因為監管機構要求每日提交監控報告"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "生成式AI技術和應用場景迅速變化，持續監控與迭代能確保策略適應新需求，提升應用效果與競爭力。",
     "tags": [
@@ -20849,7 +20849,7 @@
       "D. 開發團隊的地理分佈"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI時，需重點關注版權、數據隱私及模型偏見等倫理風險，這些問題直接影響技術的合法性與公平性。",
     "tags": [
@@ -21069,7 +21069,7 @@
       "D. 技術選型"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "medium",
     "explanation": "釐清導入目標是策略規劃的關鍵步驟，確定方向與期望成果，屬於定位目標，為後續執行提供明確指引。",
     "tags": [
@@ -21089,7 +21089,7 @@
       "D. 立即取代所有傳統工作流程"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "主導生成式AI導入的目的是確保資源有效分配及跨部門協作，這樣才能順利推動數位轉型並達成預期效果。",
     "tags": [
@@ -21129,7 +21129,7 @@
       "D. 克服挑戰與風險管理"
     ],
     "answer": "B",
-    "category": "L7生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "此步驟強調識別應用場景及準備數據，以確保AI導入的有效性和針對性，故選擇確立應用場景與數據準備為正確答案。",
     "tags": [
@@ -21509,7 +21509,7 @@
       "D. 設計用戶交互介面"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "Apache Airflow主要用於管理數據管道，確保數據流的高效性和可用性，這對於生成式AI的數據處理至關重要。",
     "tags": [
@@ -21609,7 +21609,7 @@
       "D. 最具創意的輸出結果"
     ],
     "answer": "C",
-    "category": "L116生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "數據治理框架確保數據安全與合規，支持生成式AI的持續價值與適應性，促進長期運營的穩定性與合法性。",
     "tags": [
@@ -21629,7 +21629,7 @@
       "D. 降低公司在IT基礎設施上的投入"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "導入生成式AI的目標在於提升業務效率與創新，透過整合AI技術，促進可持續成長，而非單純取代人力或展示技術。",
     "tags": [
@@ -23429,7 +23429,7 @@
       "D. 購買生成式AI相關軟體"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "企業導入生成式AI前，需明確設定可量化、可追蹤的經營目標，以確保後續實施的方向與成效評估具體可行。",
     "tags": [
@@ -23449,7 +23449,7 @@
       "D. 減少AI模型參數數量"
     ],
     "answer": "A",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "企業在導入生成式AI時，需評估市場趨勢預測能力，以確保技術能有效應對市場變化，提升競爭力。",
     "tags": [
@@ -23469,7 +23469,7 @@
       "D. 增加部門之間的交流機會，以促進跨部門合作"
     ],
     "answer": "C",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "生成式AI運行需高效能運算資源和彈性儲存，以支持模型訓練和推理，確保其性能和效率。",
     "tags": [
@@ -23509,7 +23509,7 @@
       "D. 推行技術改革、調整市場策略、強化品牌"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "medium",
     "explanation": "成功導入生成式AI需明確識別問題、確保技術適配及培養相關人才，這三者能有效提升AI應用的實用性與效果。",
     "tags": [
@@ -23529,7 +23529,7 @@
       "D. 購買市面上的AI軟體"
     ],
     "answer": "B",
-    "category": "L126生成式AI導入評估規劃",
+    "category": "L212 AI導入評估規劃",
     "importance": "high",
     "explanation": "企業在導入生成式AI時，應首先明確經營目標與核心價值，以確保AI應用與企業戰略一致，從而提升整體效益。",
     "tags": [
@@ -25469,7 +25469,7 @@
       "D. 嵌入式AI"
     ],
     "answer": "B",
-    "category": "L4 鑑別式AI與生成式AI概念",
+    "category": "L114鑑別式AI與生成式AI概念",
     "importance": "medium",
     "explanation": "ChatGPT是一種生成式AI，專注於自然語言生成，能夠根據輸入文本創造連貫的回應，與強人工智慧和其他類型的AI有所區別。",
     "tags": [
@@ -26049,7 +26049,7 @@
       "D. 支持向量機（SVM）–?"
     ],
     "answer": "C",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "卷積神經網絡（CNN）擅長處理圖像數據，能有效提取特徵，適合用於醫學影像分析和腫瘤識別，因此是該應用的最佳選擇。",
     "tags": [
@@ -26969,7 +26969,7 @@
       "D. 讓AI自己決定何時停止訓練"
     ],
     "answer": "A",
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "分散式訓練透過多台設備平行處理計算，顯著提高訓練效率，縮短時間，適合大型模型和數據集，能有效解決開發週期延遲問題。",
     "tags": [
@@ -27149,7 +27149,7 @@
       "D. 讓AI自行選擇數據，不需特殊技術處理–?"
     ],
     "answer": "A",
-    "category": "L116機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "多模態Transformer模型能同時處理文本、影像和語音數據，適合支援跨媒體智能搜尋，具備整合多種數據類型的優勢。",
     "tags": [
@@ -27209,7 +27209,7 @@
       "D. 讓AI產品自行學習，無需人類維護"
     ],
     "answer": "A",
-    "category": "L10 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "採用模組化架構可將功能分離，促進獨立開發與測試，降低維護複雜度，提升系統的可維護性。",
     "tags": [
@@ -27469,7 +27469,7 @@
       "D. 讓AI在工廠內部以紙本記錄結果，再由人工處理"
     ],
     "answer": "A",
-    "category": "L10 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "邊緣AI可在生產設備上即時執行推論，降低延遲，確保產品質量，適合即時工業檢測需求。其他選項則無法滿足低延遲要求。",
     "tags": [
@@ -27729,7 +27729,7 @@
       "D. 停止資料蒐集"
     ],
     "answer": "A",
-    "category": "L108 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "持續監控與定期更新是確保模型效能關鍵。",
     "tags": [
@@ -29049,7 +29049,7 @@
       "D. 減少數據來源"
     ],
     "answer": "A",
-    "category": "L10 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "雲端部署具備彈性擴展及運維便利優勢。",
     "tags": [
@@ -29449,7 +29449,7 @@
       "D. 只能處理影片"
     ],
     "answer": "A",
-    "category": "L113多模態AI模型概念",
+    "category": "L211 AI相關技術應用",
     "importance": "high",
     "explanation": "多模態模型能整合圖像、語音、文本等資訊。",
     "tags": [
@@ -30070,7 +30070,7 @@
     "answer": "B",
     "explanation": "當模型運行時間變短但GPU使用率下降時，通常是因為處理資料時出現問題，限制了GPU的效能發揮，例如資料從硬碟到記憶體的傳輸速度不足，這就是資料讀取過程中的瓶頸。",
     "id": 4025,
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -30310,7 +30310,7 @@
     "answer": "C",
     "explanation": "書名應該使用文字類型表示，ISBN是數字但有特定格式，可用整數表示，出版地使用文字，出版日期需要日期類型，是否精裝是布林值。",
     "id": 4037,
-    "category": "L1資料處理與分析概念",
+    "category": "L112 資料處理與分析概念",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -30590,7 +30590,7 @@
     "answer": "D",
     "explanation": "在處理時間序列數據時，長短期記憶網絡(LSTM)因其具有記憶功能的單元，可以捕捉數據中的長期依賴性，因此特別適合用於分析序列數據，如語音信號、文本或時間序列預測等。",
     "id": 4051,
-    "category": "L15機器學習與深度學習",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -30690,7 +30690,7 @@
     "answer": "D",
     "explanation": "在AI系統實施完成後，應先確保系統的部署過程順利，然後進行持續的監控並視需要更新模型，以確保其性能與準確性。最後，評估AI的價值和其對組織的影響，以便做出進一步的策略調整。",
     "id": 4056,
-    "category": "L108 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -31050,7 +31050,7 @@
     "answer": "D",
     "explanation": "題目核心在於「去除或隱藏可識別個人身分的資訊」，而差分隱私正是現今數據處理與AI應用中常見的主流去識別化方法之一。",
     "id": 4074,
-    "category": "L1資料處理與分析概念",
+    "category": "L112 資料處理與分析概念",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -31410,7 +31410,7 @@
     "answer": "B",
     "explanation": "硬體升級速度主要是技術性能的問題，而非倫理層面的考量。其他選項則涉及AI應用時需面對的倫理挑戰。",
     "id": 4092,
-    "category": "L111人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "medium",
     "tags": [
       "外部考題",
