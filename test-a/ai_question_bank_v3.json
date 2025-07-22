@@ -30407,7 +30407,7 @@
       "C. (TP + TN) / (TP + TN + FP + FN)",
       "D. TP / (TP + FN)"
     ],
-    "answer": "B. 真正例除以真正例加上假正例",
+    "answer": "B",
     "explanation": "精準度(Precision)的計算公式為：真正例(TP)除以真正例(TP)加上假正例(FP)。這個指標用來衡量模型預測為正例的準確程度。",
     "id": 4042,
     "category": "L113 機器學習概念",
