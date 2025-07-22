@@ -13049,7 +13049,7 @@
       "D. 類別型映射法"
     ],
     "answer": "C",
-    "category": "L12機器學習基礎數學",
+    "category": "L113 機器學習概念",
     "importance": "high",
     "explanation": "等分裝箱法將數據分為相同數量的區間，確保每個區間包含相同的資料筆數，適合需要均勻分布的情境。",
     "tags": [
@@ -19049,7 +19049,7 @@
       "D. 生成程式碼片段"
     ],
     "answer": "B",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "medium",
     "explanation": "DeepL工具專注於提供高品質的多語言翻譯，特別強調語境感知，能夠更準確地理解和轉換不同語言之間的意義。",
     "tags": [
@@ -19149,7 +19149,7 @@
       "D. 醫療研究"
     ],
     "answer": "B",
-    "category": "L65 生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "high",
     "explanation": "H&M利用Midjourney進行服裝搭配模擬，顯示生成式AI在時尚產業的應用，提升設計與消費者互動體驗。",
     "tags": [
@@ -19229,7 +19229,7 @@
       "D. 音樂風格轉換"
     ],
     "answer": "B",
-    "category": "L65 生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "medium",
     "explanation": "ElevenLabs專注於高自然度的文本到語音合成及聲音克隆技術，提供真實感強的語音生成，適合多種應用場景。",
     "tags": [
@@ -19329,7 +19329,7 @@
       "D. 動畫長片D.交互式全景影片"
     ],
     "answer": "B",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "medium",
     "explanation": "這類工具專注於利用AI生成虛擬主播或數字人進行講解，適合製作教育、宣傳等影片內容，提升視覺呈現與信息傳遞效率。",
     "tags": [
@@ -19629,7 +19629,7 @@
       "D. 專注於體力勞動"
     ],
     "answer": "B",
-    "category": "L113持續學習和掌握AI工具的潛能",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "此觀點強調在快速變化的科技環境中，持續學習和掌握AI工具對於個人職業生涯的重要性，以適應未來的工作需求。",
     "tags": [
@@ -19689,7 +19689,7 @@
       "D. Synthesia"
     ],
     "answer": "C",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "medium",
     "explanation": "魯班AI專注於生成商業廣告和設計，具備針對性功能，適合創建廣告Banner，相較於通用聊天機器人更具優勢。",
     "tags": [
@@ -19829,7 +19829,7 @@
       "D. 定義需求與拆解任務"
     ],
     "answer": "B",
-    "category": "L8 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "單元測試通過比例作為品質指標，確保程式碼符合預定標準，屬於設定品質驗收標準的策略。此策略有助於提升軟體的可靠性與穩定性。",
     "tags": [
@@ -19849,7 +19849,7 @@
       "D. 常見錯誤避免"
     ],
     "answer": "B",
-    "category": "L56生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "medium",
     "explanation": "串接工具鏈以實現自動化工作流屬於進階應用技巧，因為它涉及多種工具的整合與高階操作，超越基本使用策略。",
     "tags": [
@@ -20469,7 +20469,7 @@
       "D. 法律合規與風險控制"
     ],
     "answer": "B",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "high",
     "explanation": "生成式AI在行銷、銷售和研發領域的應用能顯著提升收入，因為這些領域涉及創新和客戶互動，能有效提高效率和市場反應。",
     "tags": [
@@ -21149,7 +21149,7 @@
       "D. 外包給只需要CPU的開發團隊"
     ],
     "answer": "B",
-    "category": "L8 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "雲端平台API提供即時的GPU資源，無需自建基礎設施，適合缺乏運算資源的企業，能快速部署大型模型，降低成本與技術門檻。",
     "tags": [
@@ -21489,7 +21489,7 @@
       "D. 供應商提供永久免費升級"
     ],
     "answer": "B",
-    "category": "L8 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "評估API支援程度是為了確保AI工具能與現有系統無縫整合，提升工作效率和系統兼容性。",
     "tags": [
@@ -21749,7 +21749,7 @@
       "D. 著作權侵權"
     ],
     "answer": "B",
-    "category": "L114偏見強化與歧視風險",
+    "category": "L112 資料處理與分析概念",
     "importance": "high",
     "explanation": "該情況顯示AI模型因訓練數據中的性別偏見，導致對男性候選人評分偏高，反映出偏見強化與歧視的風險。",
     "tags": [
@@ -21849,7 +21849,7 @@
       "D. 數據治理政策"
     ],
     "answer": "C",
-    "category": "L8 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "此題涉及對API行為的監控與異常檢測，屬於系統層面的風險管理，旨在及時發現並應對潛在的異常行為。",
     "tags": [
@@ -23289,7 +23289,7 @@
       "D. 消費行為洞察模型"
     ],
     "answer": "B",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "medium",
     "explanation": "自然語言處理和生成式回應模組能夠提升客戶互動的流暢性和滿意度，直接改善客戶體驗，故為最佳選擇。",
     "tags": [
@@ -24189,7 +24189,7 @@
       "D. 客服自動化"
     ],
     "answer": "C",
-    "category": "L113電子商務與網站開發",
+    "category": "L211 AI相關技術應用",
     "importance": "normal",
     "explanation": "Shopify和Webflow專注於電子商務和網站開發，提供用戶創建和管理線上商店及網站的工具，適合商業需求。",
     "tags": [
@@ -25269,7 +25269,7 @@
       "D. 只能使用固定的功能，無法修改"
     ],
     "answer": "C",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "high",
     "explanation": "開發者可利用LLM透過聊天室窗進行互動，根據具體需求進行定制，提升AI助手的靈活性和實用性。",
     "tags": [
@@ -25329,7 +25329,7 @@
       "D. AI助手只能依賴額外購買專門的硬體設備來進行交互"
     ],
     "answer": "A",
-    "category": "L8 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "medium",
     "explanation": "開發者可透過聊天室窗直接發送查詢，實現即時互動並獲取回應，這是與AI助手最有效的交互方式。",
     "tags": [
@@ -25629,7 +25629,7 @@
       "D. 以上皆是"
     ],
     "answer": "D",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "high",
     "explanation": "DALL-E生成圖像的微調方式包括變更文本提示、提供現有圖像進行修改及調整藝術風格，故選擇「以上皆是」為正確答案。",
     "tags": [
@@ -27269,7 +27269,7 @@
       "D. 讓AI生成的內容保持通用，不針對特定市場優化"
     ],
     "answer": "A",
-    "category": "L65生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "high",
     "explanation": "微調技術能提升AI生成內容的專業性，針對特定產業需求，增強產品競爭力，從而有效吸引目標客戶，超越競爭對手。",
     "tags": [
@@ -29549,7 +29549,7 @@
       "D. 增加視覺設計"
     ],
     "answer": "A",
-    "category": "L8 AI技術應用與系統部署",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "完整流程紀錄與模型說明有助外部審查順利。",
     "tags": [
@@ -31230,7 +31230,7 @@
     "answer": "D",
     "explanation": "生成式AI最擅長於數據分析與模式生成，在市場交易策略研發與測試方面，它可以快速生成並評估不同策略的潛在效果，從而幫助金融機構做出更明智的決策。",
     "id": 4083,
-    "category": "L65 生成式AI應用領域與工具使用",
+    "category": "L122 生成式AI應用領域與工具使用",
     "importance": "high",
     "tags": [
       "外部考題",
