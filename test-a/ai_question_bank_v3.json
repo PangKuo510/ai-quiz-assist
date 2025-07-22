@@ -729,7 +729,7 @@
       "D. 生物工程"
     ],
     "answer": "A",
-    "category": "L113人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "自然語言處理技術能夠理解和生成自然語言，提升人機互動的流暢性和自然度，因而最有潛力促進未來的交流方式。",
     "tags": [
@@ -1789,7 +1789,7 @@
       "D. 無監督學習AI"
     ],
     "answer": "B",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "normal",
     "explanation": "ChatGPT是一種生成式AI，專注於創建文本內容，能夠根據輸入生成自然語言回應，與決策或專家系統不同。",
     "tags": [
@@ -1969,7 +1969,7 @@
       "D. 生成式AI取代所有鑑別式AI應用"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "結合鑑別式AI與生成式AI可提升內容創造的質量，前者負責評估生成內容的準確性與適用性，確保最終產出符合需求。",
     "tags": [
@@ -2569,7 +2569,7 @@
       "D. 兩者沒有區別"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於創造新內容，如文本或圖像，而鑑別式AI則專注於分析和分類已有數據，兩者在功能上有明顯區別。",
     "tags": [
@@ -2889,7 +2889,7 @@
       "D. 生成式AI不能應用於NLP"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI可創造內容，而鑑別式AI則能評估其真實性，兩者結合可提升內容的質量與可靠性，實現更有效的應用。",
     "tags": [
@@ -2989,7 +2989,7 @@
       "D. 生成式AI只能在監督學習環境中運行"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於學習數據的分佈以創造新內容，而鑑別式AI則專注於從數據中進行分類和預測，兩者在學習目標上有明顯區別。",
     "tags": [
@@ -3529,7 +3529,7 @@
       "D. 幫助AI訓練數據清理"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於從已知數據中學習，適合用於分類和預測任務，能有效區分不同類別的數據。",
     "tags": [
@@ -4229,7 +4229,7 @@
       "D. 傳統AI更擅長創意設計"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI的特點在於能夠創造新內容，與傳統AI的分類和預測功能形成鮮明對比，顯示出其在創造性應用上的優勢。",
     "tags": [
@@ -4389,7 +4389,7 @@
       "D. 生物工程"
     ],
     "answer": "A",
-    "category": "L113人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "自然語言處理技術能夠理解和生成自然語言，提升人機互動的流暢性和自然度，因而最有潛力促進未來的交流方式。",
     "tags": [
@@ -4889,7 +4889,7 @@
       "D. 生成音樂與藝術作品"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於從已有數據中學習特徵，主要應用於圖像分類和詐欺檢測等任務，旨在區分不同類別或識別異常情況。",
     "tags": [
@@ -6069,7 +6069,7 @@
       "D. 生成式AI不能應用於NLP"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於創造新內容，適合生成文本或圖像；鑑別式AI則專注於分類和預測，兩者功能明確且可互補。",
     "tags": [
@@ -10049,7 +10049,7 @@
       "D. 無"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "要求AI模型可解釋是為了增進使用者和監管機構對其決策過程的理解，從而確保系統的透明度和信任度。",
     "tags": [
@@ -10169,7 +10169,7 @@
       "D. 圖像分類"
     ],
     "answer": "A",
-    "category": "L113人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "ASR系統專注於語音識別，將語音信號轉換為可讀的文字，這是其核心功能。其他選項涉及不同的技術領域。",
     "tags": [
@@ -10889,7 +10889,7 @@
       "D. 生成式AI不能應用於NLP"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成式AI專注於創造新內容，如文本或圖像，而鑑別式AI則專注於從數據中進行分類和預測，兩者功能明確且互補。",
     "tags": [
@@ -12209,7 +12209,7 @@
       "D. 忽略數據質量"
     ],
     "answer": "A",
-    "category": "L102資料處理與分析概念",
+    "category": "L112 資料處理與分析概念",
     "importance": "normal",
     "explanation": "資料整理與分析流程的首要步驟是數據清理與特徵選擇，確保數據質量和相關性，以便後續分析和建模。",
     "tags": [
@@ -12229,7 +12229,7 @@
       "D. 忽略數據質量"
     ],
     "answer": "A",
-    "category": "L102資料處理與分析概念",
+    "category": "L112 資料處理與分析概念",
     "importance": "medium",
     "explanation": "資料整理與分析流程的首要步驟是確保數據的質量，包括標準化和處理缺失值，以便進行後續分析。",
     "tags": [
@@ -12409,7 +12409,7 @@
       "D. 集中式數據處理"
     ],
     "answer": "A",
-    "category": "L113人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "差分隱私是一種技術，通過添加噪聲來保護個體數據，確保在分析時不洩露個人隱私，從而提升AI模型的資料隱私。",
     "tags": [
@@ -12709,7 +12709,7 @@
       "D. 鑑別式AI無法與生成式AI結合"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於數據分類，而生成式AI則能創造新數據，兩者在功能上有明顯區別。",
     "tags": [
@@ -12729,7 +12729,7 @@
       "D. 兩者無法結合"
     ],
     "answer": "A",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI可評估生成式AI的輸出真實性，確保生成內容的可靠性與準確性，故選項A為正確答案。",
     "tags": [
@@ -12749,7 +12749,7 @@
       "D. 播放音樂的語音助理"
     ],
     "answer": "C",
-    "category": "L113人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "AI醫生能根據病人歷史紀錄制定治療方案，展現出理解和應用知識的能力，最符合通用人工智慧的特徵，具備自主學習和推理的潛力。",
     "tags": [
@@ -12929,7 +12929,7 @@
       "D. 資料庫中的欄位名稱設定"
     ],
     "answer": "C",
-    "category": "L101資料處理與分析概念",
+    "category": "L112 資料處理與分析概念",
     "importance": "high",
     "explanation": "非結構化資料指無固定格式的數據，難以用傳統數據庫管理。人臉影像與自然語言文字均為此類資料，因其內容多樣且無明確結構。",
     "tags": [
@@ -13029,7 +13029,7 @@
       "D. 模型無法接受任何資料"
     ],
     "answer": "C",
-    "category": "L12大數據處理技術",
+    "category": "L222 大數據處理技術",
     "importance": "medium",
     "explanation": "隨著資料表增大，資料探勘的計算量和複雜度上升，導致所需時間顯著增加，影響效率。",
     "tags": [
@@ -13169,7 +13169,7 @@
       "D. 模型已達到100%準確率"
     ],
     "answer": "C",
-    "category": "L134機器學習建模與參數調校",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "主動學習適合在標記成本高昂的情況下，透過模型選擇關鍵樣本進行人工標記，以提高學習效率和降低成本。",
     "tags": [
@@ -13449,7 +13449,7 @@
       "D. 取決於資料權重"
     ],
     "answer": "B",
-    "category": "L10機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "在隨機抽樣中，每筆資料被選中的機率均等，為總數N的倒數，即1/N，確保每個樣本有相同的被選機會。",
     "tags": [
@@ -13469,7 +13469,7 @@
       "D. 平均值除以中位數"
     ],
     "answer": "C",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "平均值法偵測離群值通常以平均值加減3個標準差為基準，這樣能有效識別統計上顯著的異常值。",
     "tags": [
@@ -13629,7 +13629,7 @@
       "D. 移除不重要的變數"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "抽樣的主要目的是透過分析少量樣本來推估整體母體的特性，這樣可以有效降低成本和時間，並獲得可靠的推論。",
     "tags": [
@@ -13649,7 +13649,7 @@
       "D. 根據資料標籤直接分層抽樣"
     ],
     "answer": "C",
-    "category": "L10機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "群集抽樣首先將資料分成若干群體，然後從中隨機選取整個群體進行分析，這樣能有效降低成本並提高效率。",
     "tags": [
@@ -13769,7 +13769,7 @@
       "D. 以最大值與最小值為中心向外擴展區間"
     ],
     "answer": "A",
-    "category": "L110機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "等分裝箱法旨在將資料分成若干區間，使每個區間內的資料數量相等，以便於分析資料的分佈特性。",
     "tags": [
@@ -14109,7 +14109,7 @@
       "D. 依照時間順序進行抽樣"
     ],
     "answer": "C",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "取回式隨機抽樣允許已抽中的資料再次被選中，這是其主要特徵，與其他選項的限制性不同。",
     "tags": [
@@ -14489,7 +14489,7 @@
       "D. 可解釋性不足"
     ],
     "answer": "C",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "生成真實外觀的虛假影像與語音會導致假訊息和Deepfake現象，這對社會輿論造成重大威脅，影響信息的真實性與可信度。",
     "tags": [
@@ -14549,7 +14549,7 @@
       "D. 4 "
     ],
     "answer": "B",
-    "category": "L10機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "normal",
     "explanation": "數值範圍為28到36，範圍為8。將範圍除以箱數4，得每箱寬度為2。因此，正確答案為B。",
     "tags": [
@@ -14629,7 +14629,7 @@
       "D. 適用於資料量極少的情境"
     ],
     "answer": "C",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "分層抽樣透過將樣本劃分為高同質性且互不重疊的群體，能提高抽樣的代表性和精確度，確保各群體的特徵得到充分反映。",
     "tags": [
@@ -14669,7 +14669,7 @@
       "D. 每群資料筆數固定且均勻"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "群集抽樣的特性在於將整體資料劃分為若干群集，然後隨機選取部分群集進行抽樣，強調群集內部的相似性。",
     "tags": [
@@ -14869,7 +14869,7 @@
       "D. 它只應用於遊戲與娛樂，因此不需擔心風險"
     ],
     "answer": "C",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "超級人工智慧的潛在風險主要在於其可能威脅人類生存，因此需建立法律與倫理規範以進行有效約束，這是討論的核心。",
     "tags": [
@@ -14909,7 +14909,7 @@
       "D. Siri聲控助手"
     ],
     "answer": "C",
-    "category": "L113人工智慧概念",
+    "category": "L111 人工智慧概念",
     "importance": "medium",
     "explanation": "ENDRAL專注於化學分子結構的分析，運用符號邏輯進行推理，符合符號邏輯AI的特徵，其他選項則屬於不同的AI應用領域。",
     "tags": [
@@ -15109,7 +15109,7 @@
       "D. 公平性(Fairness)"
     ],
     "answer": "B",
-    "category": "L113可解釋性(Explainability)",
+    "category": "L111 人工智慧概念",
     "importance": "high",
     "explanation": "可解釋性強調AI系統的透明度，讓使用者能理解其決策過程，增強信任與接受度，與其他選項的重點有所區別。",
     "tags": [
@@ -15209,7 +15209,7 @@
       "D. 兩階段式抽樣"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "分層抽樣是將母體依結構分群，確保每群都有代表性，然後從每群中隨機抽取樣本，以提高樣本的準確性和可靠性。",
     "tags": [
@@ -15289,7 +15289,7 @@
       "D. 類別型映射"
     ],
     "answer": "B",
-    "category": "L10機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "對數轉換可有效減少數值型離群值的影響，通過壓縮數據範圍，使其更符合正態分佈，從而提高分析的準確性。",
     "tags": [
@@ -15569,7 +15569,7 @@
       "D. 鑑別式AI是非監督學習，生成式AI是監督學習"
     ],
     "answer": "C",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "high",
     "explanation": "鑑別式AI專注於分類和預測，無法創造新內容；而生成式AI則能生成新資料，兩者在功能上有明顯區別。",
     "tags": [
@@ -15689,7 +15689,7 @@
       "D. 每個區間的標準差為1"
     ],
     "answer": "B",
-    "category": "L10機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "等寬裝箱法的核心在於將數據範圍均分為若干區間，確保每個區間的範圍寬度一致，以便於比較和分析數據分佈。",
     "tags": [
@@ -17069,7 +17069,7 @@
       "D. 分佈的極端區段，如min~5%或95%~max"
     ],
     "answer": "D",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "離群值通常位於數據分佈的極端區段，因為這些區域的數據點與其他數據明顯不同，容易被識別為異常值。",
     "tags": [
@@ -17089,7 +17089,7 @@
       "D. 小於–50或大於150"
     ],
     "answer": "D",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "離群值範圍計算公式為Q1 - 1.5×IQR和Q3 + 1.5×IQR，IQR為Q3-Q1。此例中，範圍為小於-50或大於150。",
     "tags": [
@@ -17609,7 +17609,7 @@
       "D. 群集抽樣"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "medium",
     "explanation": "系統抽樣是以固定間距選取樣本的方法，能有效減少抽樣偏差，適用於有序資料的情況。",
     "tags": [
@@ -22309,7 +22309,7 @@
       "D. \"四分位數(Quartile)\""
     ],
     "answer": "C",
-    "category": "L10機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "雷達圖主要用於比較多變量之間的關係，不適合用來估計資料分布，因為其無法有效呈現數據的頻率或分布特徵。",
     "tags": [
@@ -22469,7 +22469,7 @@
       "D. 中位數數值高，品質良率較高"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "標準差偏大表示生產過程中存在較大波動，導致產品品質不穩定，可能影響最終產品的可靠性和一致性。",
     "tags": [
@@ -22529,7 +22529,7 @@
       "D. 一組學生身高數據，呈現出常態分布"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "中位數對於含有極端值的數據集最為合適，因為它不受極端值影響，能更準確地反映大多數數據的集中趨勢。",
     "tags": [
@@ -22549,7 +22549,7 @@
       "D. 無法判斷"
     ],
     "answer": "C",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "當平均數小於中位數時，數據分布呈現負偏態，表示數據左側有較多的低值，拉低了平均數。",
     "tags": [
@@ -22569,7 +22569,7 @@
       "D. 我們有5%的機率犯型一錯誤"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "p值0.03小於顯著性水準0.05，表示有足夠證據拒絕虛無假設，對應95%的信心水準。選擇B為正確答案。",
     "tags": [
@@ -22589,7 +22589,7 @@
       "D. 無法判斷"
     ],
     "answer": "C",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "當平均數大於中位數時，表示數據右側有較多的高值，通常呈現正偏態分布。此時，數據的尾部向右延伸，導致平均數上升。",
     "tags": [
@@ -22609,7 +22609,7 @@
       "D. 四分位距與平均數一樣，容易受到極端值影響"
     ],
     "answer": "C",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "四分位距是第三四分位數與第一四分位數之間的差，反映中間50%數據的分散程度，對極端值不敏感。",
     "tags": [
@@ -22629,7 +22629,7 @@
       "D. 一組房屋價格資料，其中包含少數豪宅的極端高價"
     ],
     "answer": "B",
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "explanation": "眾數適合用於描述資料中最常見的值，特別是在存在極端值或異常值時。選項B中，某產品銷量遠高於其他，眾數能有效反映此情況。",
     "tags": [
@@ -25469,7 +25469,7 @@
       "D. 嵌入式AI"
     ],
     "answer": "B",
-    "category": "L114鑑別式AI與生成式AI概念",
+    "category": "L114 鑑別式AI與生成式AI概念",
     "importance": "medium",
     "explanation": "ChatGPT是一種生成式AI，專注於自然語言生成，能夠根據輸入文本創造連貫的回應，與強人工智慧和其他類型的AI有所區別。",
     "tags": [
@@ -26629,7 +26629,7 @@
       "D. 讓AI自行學習，無需調整參數"
     ],
     "answer": "A",
-    "category": "L134機器學習建模與參數調校",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "模型在訓練數據上表現良好但在新數據上表現不佳，顯示過擬合。使用正則化技術可有效降低過擬合，提升模型在新數據上的泛化能力。",
     "tags": [
@@ -27349,7 +27349,7 @@
       "D. 停止訓練，改用小型規則式AI"
     ],
     "answer": "A",
-    "category": "L134機器學習建模與參數調校",
+    "category": "L213 AI技術應用與系統部署",
     "importance": "high",
     "explanation": "模型壓縮技術能有效減少計算需求，降低運算成本，提升訓練效率，適合在資源有限的情況下使用。",
     "tags": [
@@ -29690,7 +29690,7 @@
     "answer": "B",
     "explanation": "中位數在數據集中不受極端值的影響，能更準確地反映資料的中心位置。相比之下，平均值容易受極端值拉動，使結果偏離實際的集中趨勢。",
     "id": 4006,
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -29950,7 +29950,7 @@
     "answer": "D",
     "explanation": "在描述資料的集中位置時，通常使用的指標有眾數、算術平均值和中位數，這些數值幫助我們了解資料的中心趨勢。相對之下，標準差用於衡量資料的分散程度，而不是集中趨勢。",
     "id": 4019,
-    "category": "L109機率統計基礎",
+    "category": "L221 機率統計基礎",
     "importance": "high",
     "tags": [
       "外部考題",
@@ -30990,7 +30990,7 @@
     "answer": "D",
     "explanation": "資料湖的一個關鍵特點是它能夠容納大量未經處理的資料，這使得各種格式的資料能夠被保存並進行後續分析，這在AI應用中非常重要。",
     "id": 4071,
-    "category": "L12大數據處理技術",
+    "category": "L222 大數據處理技術",
     "importance": "high",
     "tags": [
       "外部考題",
